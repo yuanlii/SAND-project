@@ -88,33 +88,26 @@ scripts用途：define a script which will generate the values (per document).
 - https://vega.github.io/vega/tutorials/
 
 3.[KOIOSSIAN™ Solutions and Services](http://www.koiossian.com/):
--> 老师用的visualization package | 比较复杂，需研究
+- 老师用的visualization package | 比较复杂，需研究
 
 __其他工具__：
-工具集合&useful links: https://vega.github.io/
-polestar在线编辑器（可预览）：https://vega.github.io/polestar/
-data pipeline: https://idl.cs.washington.edu/projects/lyra/app/
 
+- [工具集合&useful links](https://vega.github.io/)
+- [polestar在线编辑器（可预览）](https://vega.github.io/polestar/)
+- [data pipeline](https://idl.cs.washington.edu/projects/lyra/app/)
 
-__做 Visualization 参考__: 
-=> Vega Lite可以提供更加flexible的syntax语句！ 相比直接点击Kibana按钮 | Give it a try :）
-
-可以做 | [Sankey Visualization with Vega in Kibana 6.2](https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana)
 
 
 __其他参考__:
-[Custom Vega Visualizations in Kibana 6.2](https://www.elastic.co/blog/custom-vega-visualizations-in-kibana)
-
-[vega examples](https://vega.github.io/vega/examples/): --> 有专门针对network data的visualization!
-
-[vega documentation](https://vega.github.io/vega/docs/)
-
-[Data Manipulation Transforms | Vega Lite](https://github.com/vega/vega/wiki/Data-Transforms):
+- [Sankey Visualization with Vega in Kibana 6.2](https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana)
+- [Custom Vega Visualizations in Kibana 6.2](https://www.elastic.co/blog/custom-vega-visualizations-in-kibana)
+- [vega examples](https://vega.github.io/vega/examples/): --> 有专门针对network data的visualization!
+- [vega documentation](https://vega.github.io/vega/docs/)
+- [Data Manipulation Transforms | Vega Lite](https://github.com/vega/vega/wiki/Data-Transforms):
 --> 只有有限的transformation 方法 => 可以尝试是否能实现所需功能 ～
 
 
-not quite possible to count the unique pairs of two columns directly in Kibana: https://discuss.elastic.co/t/distinct-count-of-2-fields/53278/5
-
+not quite possible to count the unique pairs of two columns directly in Kibana  - see [forum discussion](https://discuss.elastic.co/t/distinct-count-of-2-fields/53278/5)
 
 
 ## Visualization
