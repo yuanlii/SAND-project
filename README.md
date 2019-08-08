@@ -40,6 +40,17 @@ https://codas.slateci.net/
 https://codas.slateci.net
 my service: https://codas.slateci.net/services.html => CHECK jupyter notebook
 
+From Ilija:
+```
+You would basically log in into it (if you have CERN account, if not you should use https://codas.slateci.net or  https://ml.maniac.uchicago.edu/), I would approve you and then you would be able to quickly create a personal JupyterLab instance.
+
+This instance can access all of the Elasticsearch data and is equipped with GPUs if you need them for a machine learning algorithms.
+```
+- keywords: pull ElasticSearch data; ML computing with GPU
+- Jupyter lab instance - Private instance is a better option.
+- potential problem:
+  - pw of Jupyter notebook instance to log in? -> It is the one you gave when you created it…
+
 
 ## Vega visualization
 visualize - 选择图形 - vega 
@@ -93,6 +104,7 @@ __做 Visualization 参考__:
 
 可以做 | [Sankey Visualization with Vega in Kibana 6.2](https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana)
 
+
 __其他参考__:
 [Custom Vega Visualizations in Kibana 6.2](https://www.elastic.co/blog/custom-vega-visualizations-in-kibana)
 
@@ -115,7 +127,6 @@ not quite possible to count the unique pairs of two columns directly in Kibana: 
 __Vega visualization__:
 - 可以参考这些blog posts
 - vega examples: https://vega.github.io/vega/examples/arc-diagram/
-
 
 
 ## Learn ElasticSearch
