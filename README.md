@@ -188,3 +188,13 @@ timeseries, correlation, similarity, anomaly detection
 
 ## Questions
 count指的是什么 => 以12hrs作为interval| 是指在这12小时之内出现的packet loss的record吗？（包括packet loss为0的record吗？） （亟待回答的问题）**
+
+
+
+
+## MISC
+How to remove venv accidentally upload to github:
+```
+$ git rm -r --cached venv*
+```
+the will need to git add ., git commit, git push again.
