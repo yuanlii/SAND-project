@@ -6,10 +6,10 @@
 
 
 ### Building dashboards in Kibana
-Kibana dashboard: http://atlas-kibana.mwt2.org
-Kibana dev dashboard: http://atlas-kibana-dev.mwt2.org
-  --> username: atlas
-  --> password: BlackMirror
+- Kibana dashboard: http://atlas-kibana.mwt2.org
+- Kibana dev dashboard: http://atlas-kibana-dev.mwt2.org
+  - username: atlas
+  - password: BlackMirror
 
 [Description of project](https://mail.google.com/mail/u/0/#section_query/has%3Ayellow-star/FMfcgxwBVMlsdZrRPcdqJvFPCtddJzDs)
 
@@ -35,10 +35,10 @@ Ilia在做什么：University of Chicago, 在做一个Machine Learning (ML) onli
 - 可以使用所有database里的data (包括PerfSONAR)
 
 网址：https://www.atlas-ml.org/ (need to log in with CERN account)
-*Alternatives: 
-https://codas.slateci.net/
-https://codas.slateci.net
-my service: https://codas.slateci.net/services.html => CHECK jupyter notebook
+* Alternatives: 
+  - https://codas.slateci.net/
+  - https://codas.slateci.net
+  - my service: https://codas.slateci.net/services.html => CHECK jupyter notebook
 
 From Ilija:
 You would basically log in into it (if you have CERN account, if not you should use https://codas.slateci.net or  https://ml.maniac.uchicago.edu/), I would approve you and then you would be able to quickly create a personal JupyterLab instance.
@@ -58,7 +58,7 @@ useful tutorial:
 - https://www.youtube.com/watch?v=towTppinOD8
 - https://www.youtube.com/watch?v=mMhnGjp8oOI
 
-network viz 尝试：https://vega.github.io/editor/#/examples/vega/edge-bundling
+[network viz 尝试](https://vega.github.io/editor/#/examples/vega/edge-bundling)
 
 working urls:
 https://vega.github.io/vega-lite/docs/data.html
@@ -72,24 +72,22 @@ https://www.youtube.com/results?search_query=kibana%2C+vega%2C+load+data
 - approach 3: use KOIOSSIAN （recommend)
 
 相关：
-Kibana "aggregation" function: https://www.elastic.co/guide/en/elasticsearch/reference/6.5/search-aggregations.html
+[Kibana "aggregation" function](https://www.elastic.co/guide/en/elasticsearch/reference/6.5/search-aggregations.html)
 - "transformation"
 
 scripts用途：define a script which will generate the values (per document).
 
 ### 参考documentation:
-Lucene expressions：https://www.elastic.co/guide/en/elasticsearch/reference/6.5/modules-scripting-expression.html
-Query string syntax: https://www.elastic.co/guide/en/elasticsearch/reference/6.5/query-dsl-query-string-query.html#query-string-syntax
-Query string query:
-https://www.elastic.co/guide/en/elasticsearch/reference/6.5/query-dsl-query-string-query.html
-
-Painless Scripting Language: https://www.elastic.co/guide/en/elasticsearch/reference/6.5/modules-scripting-painless.html
+[Lucene expressions](https://www.elastic.co/guide/en/elasticsearch/reference/6.5/modules-scripting-expression.html)
+[Query string syntax](https://www.elastic.co/guide/en/elasticsearch/reference/6.5/query-dsl-query-string-query.html#query-string-syntax)
+[Query string query](https://www.elastic.co/guide/en/elasticsearch/reference/6.5/query-dsl-query-string-query.html)
+[Painless Scripting Language](https://www.elastic.co/guide/en/elasticsearch/reference/6.5/modules-scripting-painless.html)
 
 2.Vega & Vega-Lite VISUALIZATION GRAMMARS: 
 - https://vega.github.io/
 - https://vega.github.io/vega/tutorials/
 
-3.KOIOSSIAN™ Solutions and Services: http://www.koiossian.com/
+3.[KOIOSSIAN™ Solutions and Services](http://www.koiossian.com/):
 -> 老师用的visualization package | 比较复杂，需研究
 
 __其他工具__：
