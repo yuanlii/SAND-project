@@ -7,7 +7,7 @@
 
 ### Building dashboards in Kibana
 - Kibana dashboard: http://atlas-kibana.mwt2.org
-- Kibana dev dashboard: http://atlas-kibana-dev.mwt2.org
+- Kibana dev dashboard: http://atlas-kibana-dev.mwt2.org --> cannot open outside of UM network
   - username: atlas
   - password: BlackMirror
 
