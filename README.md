@@ -54,17 +54,17 @@ This instance can access all of the Elasticsearch data and is equipped with GPUs
 ## Vega visualization
 visualize - 选择图形 - vega 
 useful tutorial: 
-- https://www.youtube.com/watch?v=5giacrHVYe4
-- https://www.youtube.com/watch?v=towTppinOD8
-- https://www.youtube.com/watch?v=mMhnGjp8oOI
+- [tutorial1](https://www.youtube.com/watch?v=5giacrHVYe4)
+- [tutorial2](https://www.youtube.com/watch?v=towTppinOD8)
+- [tutorial3](https://www.youtube.com/watch?v=mMhnGjp8oOI)
 
 [network viz 尝试](https://vega.github.io/editor/#/examples/vega/edge-bundling)
 
 working urls:
-https://vega.github.io/vega-lite/docs/data.html
-https://discuss.elastic.co/t/how-to-correctly-use-local-json-for-vega-and-kibana/120253/4
-https://www.elastic.co/cn/blog/sankey-visualization-with-vega-in-kibana
-https://www.youtube.com/results?search_query=kibana%2C+vega%2C+load+data
+- [url1](https://vega.github.io/vega-lite/docs/data.html)
+- [url2](https://discuss.elastic.co/t/how-to-correctly-use-local-json-for-vega-and-kibana/120253/4)
+- [url3](https://www.elastic.co/cn/blog/sankey-visualization-with-vega-in-kibana)
+- [url4](https://www.youtube.com/results?search_query=kibana%2C+vega%2C+load+data)
 
 ### [task]: check how to get the unique pairs between src and dest?
 - approach 1: create scripted field => 我的理解：可以建一个新的field? （recommend)
@@ -194,7 +194,7 @@ there is less than 150 src_host, dest_host => data table need to load them all
 timeseries, correlation, similarity, anomaly detection
 
 
-## Questions
+## Question Lists
 count指的是什么 => 以12hrs作为interval| 是指在这12小时之内出现的packet loss的record吗？（包括packet loss为0的record吗？） （亟待回答的问题）**
 
 
