@@ -1,8 +1,7 @@
 
 ## SAND Project Documentation
-### Self-expectation
-1. data visualization real-world practice
-2. time series anomaly dection  => 参考Ilija github
+
+Documentation about Kibana dashboards that I built - [Google doc](https://docs.google.com/document/d/1nAe8ns0JAlod3-Ps3MVgpCwBGvdAMf8Fewt0Qjg33u0/edit)
 
 
 ### Building dashboards in Kibana
