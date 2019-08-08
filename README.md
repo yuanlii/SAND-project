@@ -123,7 +123,7 @@ __Vega visualization__:
 
 
 ## Python pull data from ElasticSearch
-[python codes]((https://github.com/UM-UROP-Network-Analytics/database)) to pull data from ElasticSearch
+[python codes](https://github.com/UM-UROP-Network-Analytics/database) to pull data from ElasticSearch
 
 
 
