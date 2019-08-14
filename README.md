@@ -7,6 +7,8 @@ Documentation about Kibana dashboards that I built - [Google doc](https://docs.g
 
 [project plan](https://docs.google.com/document/d/117k5lJFDr0HDE37nXOEXt_15TkzJpj83CuVI9dcjQBI/edit)
 
+[Question list](https://github.com/yuanlii/SAND-project/blob/master/archive/feedback_question.md)
+
 ### Building dashboards in Kibana
 - Kibana dashboard: http://atlas-kibana.mwt2.org
 - Kibana dev dashboard: http://atlas-kibana-dev.mwt2.org --> cannot open outside of UM network
