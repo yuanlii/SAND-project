@@ -1,8 +1,11 @@
 
 ## SAND Project Documentation
 
-Documentation about Kibana dashboards that I built - [Google doc](https://docs.google.com/document/d/1nA
-e8ns0JAlod3-Ps3MVgpCwBGvdAMf8Fewt0Qjg33u0/edit)
+Documentation about Kibana dashboards that I built - [Google doc](https://docs.google.com/document/d/1nAe8ns0JAlod3-Ps3MVgpCwBGvdAMf8Fewt0Qjg33u0/edit)
+
+[Google shared Drive](https://drive.google.com/drive/folders/0APwP9-3JRjJOUk9PVA)
+
+[project plan](https://docs.google.com/document/d/117k5lJFDr0HDE37nXOEXt_15TkzJpj83CuVI9dcjQBI/edit)
 
 ### Building dashboards in Kibana
 - Kibana dashboard: http://atlas-kibana.mwt2.org
