@@ -3,11 +3,12 @@
 
 Documentation about Kibana dashboards that I built - [Google doc](https://docs.google.com/document/d/1nAe8ns0JAlod3-Ps3MVgpCwBGvdAMf8Fewt0Qjg33u0/edit)
 
-[Google shared Drive](https://drive.google.com/drive/folders/0APwP9-3JRjJOUk9PVA)
+- [Google shared Drive](https://drive.google.com/drive/folders/0APwP9-3JRjJOUk9PVA)
+- [project plan](https://docs.google.com/document/d/117k5lJFDr0HDE37nXOEXt_15TkzJpj83CuVI9dcjQBI/edit)
+- [Question list](https://github.com/yuanlii/SAND-project/blob/master/archive/feedback_question.md)
 
-[project plan](https://docs.google.com/document/d/117k5lJFDr0HDE37nXOEXt_15TkzJpj83CuVI9dcjQBI/edit)
-
-[Question list](https://github.com/yuanlii/SAND-project/blob/master/archive/feedback_question.md)
+- [ps_trace documentation](https://docs.google.com/document/d/176NkqR9OZfFuxFft4I4nGvaXQpe9_YsYNfiVHGDNWb4/edit)
+- [ps_packet_loss documentation](https://docs.google.com/document/d/1ZUzwhU6qldpqx1FYE_f49T1o97y_UOe6PXPtRPp6emA/edit)
 
 ### Building dashboards in Kibana
 - Kibana dashboard: http://atlas-kibana.mwt2.org
