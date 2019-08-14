@@ -1,0 +1,483 @@
+{
+  "took": 224,
+  "timed_out": false,
+  "_shards": {
+    "total": 3090,
+    "successful": 3090,
+    "skipped": 3085,
+    "failed": 0
+  },
+  "hits": {
+    "total": 733,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "ps_trace-2019.8.12",
+        "_type": "doc",
+        "_id": "1206552253053926292",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "18.12.1.171",
+          "src": "18.12.1.171",
+          "dest": "18.8.81.11",
+          "src_host": "18.12.1.171",
+          "dest_host": "perfsonar01-external-rtr-3.mit.edu",
+          "ipv6": false,
+          "src_site": "MIT_CMS",
+          "src_VO": "UNKNOWN",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565652812000,
+          "hops": [
+            "18.12.0.1",
+            "18.0.162.37",
+            "18.0.161.5",
+            "18.0.161.14",
+            "18.8.81.11"
+          ],
+          "asns": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "rtts": [
+            0.6,
+            1.7,
+            1.5,
+            1.5,
+            1.3
+          ],
+          "ttls": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_hops": 5,
+          "max_rtt": 1.7,
+          "hash": -592305181146285400
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-12T23:33:32.000Z"
+          ]
+        },
+        "sort": [
+          1565652812000
+        ],
+        "$$_flattened": {
+          "MA": "18.12.1.171",
+          "src": "18.12.1.171",
+          "dest": "18.8.81.11",
+          "src_host": "18.12.1.171",
+          "dest_host": "perfsonar01-external-rtr-3.mit.edu",
+          "ipv6": false,
+          "src_site": "MIT_CMS",
+          "src_VO": "UNKNOWN",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-12T23:33:32.000Z",
+          "hops": [
+            "18.12.0.1",
+            "18.0.162.37",
+            "18.0.161.5",
+            "18.0.161.14",
+            "18.8.81.11"
+          ],
+          "asns": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "rtts": [
+            0.6,
+            1.7,
+            1.5,
+            1.5,
+            1.3
+          ],
+          "ttls": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_hops": 5,
+          "max_rtt": 1.7,
+          "hash": -592305181146285400,
+          "_id": "1206552253053926292",
+          "_type": "doc",
+          "_index": "ps_trace-2019.8.12"
+        },
+        "$$_partialFormatted": {
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 16:33:32.000</span>",
+          "MA": "<span ng-non-bindable>18.12.1.171</span>",
+          "src": "<span ng-non-bindable>18.12.1.171</span>",
+          "dest": "<span ng-non-bindable>18.8.81.11</span>",
+          "src_host": "<span ng-non-bindable>18.12.1.171</span>",
+          "dest_host": "<span ng-non-bindable>perfsonar01-external-rtr-3.mit.edu</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_site": "<span ng-non-bindable>MIT_CMS</span>",
+          "src_VO": "<span ng-non-bindable>UNKNOWN</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "hops": "<span ng-non-bindable>18.12.0.1, 18.0.162.37, 18.0.161.5, 18.0.161.14, 18.8.81.11</span>",
+          "asns": "<span ng-non-bindable>3, 3, 3, 3, 3</span>",
+          "rtts": "<span ng-non-bindable>0.6, 1.7, 1.5, 1.5, 1.3</span>",
+          "ttls": "<span ng-non-bindable>1, 2, 3, 4, 5</span>",
+          "n_hops": "<span ng-non-bindable>5</span>",
+          "max_rtt": "<span ng-non-bindable>1.7</span>",
+          "hash": "<span ng-non-bindable>-592,305,181,146,285,312</span>",
+          "_id": "<span ng-non-bindable>1206552253053926292</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_trace-2019.8.12</span>",
+          "_source": "<span ng-non-bindable>\n  <dl class=\"source truncate-by-height\"><dt>MA:</dt><dd><span ng-non-bindable>18.12.1.171</span></dd> <dt>src:</dt><dd><span ng-non-bindable>18.12.1.171</span></dd> <dt>dest:</dt><dd><span ng-non-bindable>18.8.81.11</span></dd> <dt>src_host:</dt><dd><span ng-non-bindable>18.12.1.171</span></dd> <dt>dest_host:</dt><dd><span ng-non-bindable>perfsonar01-external-rtr-3.mit.edu</span></dd> <dt>ipv6:</dt><dd><span ng-non-bindable>false</span></dd> <dt>src_site:</dt><dd><span ng-non-bindable>MIT_CMS</span></dd> <dt>src_VO:</dt><dd><span ng-non-bindable>UNKNOWN</span></dd> <dt>src_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>dest_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>timestamp:</dt><dd><span ng-non-bindable>August 12th 2019, 16:33:32.000</span></dd> <dt>hops:</dt><dd><span ng-non-bindable>18.12.0.1, 18.0.162.37, 18.0.161.5, 18.0.161.14, 18.8.81.11</span></dd> <dt>asns:</dt><dd><span ng-non-bindable>3, 3, 3, 3, 3</span></dd> <dt>rtts:</dt><dd><span ng-non-bindable>0.6, 1.7, 1.5, 1.5, 1.3</span></dd> <dt>ttls:</dt><dd><span ng-non-bindable>1, 2, 3, 4, 5</span></dd> <dt>n_hops:</dt><dd><span ng-non-bindable>5</span></dd> <dt>max_rtt:</dt><dd><span ng-non-bindable>1.7</span></dd> <dt>hash:</dt><dd><span ng-non-bindable>-592,305,181,146,285,312</span></dd> <dt>_id:</dt><dd><span ng-non-bindable>1206552253053926292</span></dd> <dt>_type:</dt><dd><span ng-non-bindable>doc</span></dd> <dt>_index:</dt><dd><span ng-non-bindable>ps_trace-2019.8.12</span></dd> </dl></span>"
+        },
+        "$$_formatted": {
+          "MA": "<span ng-non-bindable>18.12.1.171</span>",
+          "src": "<span ng-non-bindable>18.12.1.171</span>",
+          "dest": "<span ng-non-bindable>18.8.81.11</span>",
+          "src_host": "<span ng-non-bindable>18.12.1.171</span>",
+          "dest_host": "<span ng-non-bindable>perfsonar01-external-rtr-3.mit.edu</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_site": "<span ng-non-bindable>MIT_CMS</span>",
+          "src_VO": "<span ng-non-bindable>UNKNOWN</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 16:33:32.000</span>",
+          "hops": "<span ng-non-bindable>18.12.0.1, 18.0.162.37, 18.0.161.5, 18.0.161.14, 18.8.81.11</span>",
+          "asns": "<span ng-non-bindable>3, 3, 3, 3, 3</span>",
+          "rtts": "<span ng-non-bindable>0.6, 1.7, 1.5, 1.5, 1.3</span>",
+          "ttls": "<span ng-non-bindable>1, 2, 3, 4, 5</span>",
+          "n_hops": "<span ng-non-bindable>5</span>",
+          "max_rtt": "<span ng-non-bindable>1.7</span>",
+          "hash": "<span ng-non-bindable>-592,305,181,146,285,312</span>",
+          "_id": "<span ng-non-bindable>1206552253053926292</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_trace-2019.8.12</span>"
+        }
+      },
+      {
+        "_index": "ps_trace-2019.8.12",
+        "_type": "doc",
+        "_id": "-2661133586502643203",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "18.12.1.171",
+          "src": "18.12.1.171",
+          "dest": "18.71.0.151",
+          "src_host": "18.12.1.171",
+          "dest_host": "STRAWB.MIT.EDU",
+          "ipv6": false,
+          "src_site": "MIT_CMS",
+          "src_VO": "UNKNOWN",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565652808000,
+          "hops": [
+            "18.12.0.1",
+            "18.0.162.37",
+            "18.0.162.5",
+            "18.0.161.2",
+            "18.0.193.66"
+          ],
+          "asns": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "rtts": [
+            0.7,
+            1.5,
+            1.7,
+            1.6,
+            1.8
+          ],
+          "ttls": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_hops": 5,
+          "max_rtt": 1.8,
+          "hash": 7179762254363141000
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-12T23:33:28.000Z"
+          ]
+        },
+        "sort": [
+          1565652808000
+        ],
+        "$$_flattened": {
+          "MA": "18.12.1.171",
+          "src": "18.12.1.171",
+          "dest": "18.71.0.151",
+          "src_host": "18.12.1.171",
+          "dest_host": "STRAWB.MIT.EDU",
+          "ipv6": false,
+          "src_site": "MIT_CMS",
+          "src_VO": "UNKNOWN",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-12T23:33:28.000Z",
+          "hops": [
+            "18.12.0.1",
+            "18.0.162.37",
+            "18.0.162.5",
+            "18.0.161.2",
+            "18.0.193.66"
+          ],
+          "asns": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "rtts": [
+            0.7,
+            1.5,
+            1.7,
+            1.6,
+            1.8
+          ],
+          "ttls": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_hops": 5,
+          "max_rtt": 1.8,
+          "hash": 7179762254363141000,
+          "_id": "-2661133586502643203",
+          "_type": "doc",
+          "_index": "ps_trace-2019.8.12"
+        },
+        "$$_partialFormatted": {
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 16:33:28.000</span>",
+          "MA": "<span ng-non-bindable>18.12.1.171</span>",
+          "src": "<span ng-non-bindable>18.12.1.171</span>",
+          "dest": "<span ng-non-bindable>18.71.0.151</span>",
+          "src_host": "<span ng-non-bindable>18.12.1.171</span>",
+          "dest_host": "<span ng-non-bindable>STRAWB.MIT.EDU</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_site": "<span ng-non-bindable>MIT_CMS</span>",
+          "src_VO": "<span ng-non-bindable>UNKNOWN</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "hops": "<span ng-non-bindable>18.12.0.1, 18.0.162.37, 18.0.162.5, 18.0.161.2, 18.0.193.66</span>",
+          "asns": "<span ng-non-bindable>3, 3, 3, 3, 3</span>",
+          "rtts": "<span ng-non-bindable>0.7, 1.5, 1.7, 1.6, 1.8</span>",
+          "ttls": "<span ng-non-bindable>1, 2, 3, 4, 5</span>",
+          "n_hops": "<span ng-non-bindable>5</span>",
+          "max_rtt": "<span ng-non-bindable>1.8</span>",
+          "hash": "<span ng-non-bindable>7,179,762,254,363,141,120</span>",
+          "_id": "<span ng-non-bindable>-2661133586502643203</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_trace-2019.8.12</span>",
+          "_source": "<span ng-non-bindable>\n  <dl class=\"source truncate-by-height\"><dt>MA:</dt><dd><span ng-non-bindable>18.12.1.171</span></dd> <dt>src:</dt><dd><span ng-non-bindable>18.12.1.171</span></dd> <dt>dest:</dt><dd><span ng-non-bindable>18.71.0.151</span></dd> <dt>src_host:</dt><dd><span ng-non-bindable>18.12.1.171</span></dd> <dt>dest_host:</dt><dd><span ng-non-bindable>STRAWB.MIT.EDU</span></dd> <dt>ipv6:</dt><dd><span ng-non-bindable>false</span></dd> <dt>src_site:</dt><dd><span ng-non-bindable>MIT_CMS</span></dd> <dt>src_VO:</dt><dd><span ng-non-bindable>UNKNOWN</span></dd> <dt>src_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>dest_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>timestamp:</dt><dd><span ng-non-bindable>August 12th 2019, 16:33:28.000</span></dd> <dt>hops:</dt><dd><span ng-non-bindable>18.12.0.1, 18.0.162.37, 18.0.162.5, 18.0.161.2, 18.0.193.66</span></dd> <dt>asns:</dt><dd><span ng-non-bindable>3, 3, 3, 3, 3</span></dd> <dt>rtts:</dt><dd><span ng-non-bindable>0.7, 1.5, 1.7, 1.6, 1.8</span></dd> <dt>ttls:</dt><dd><span ng-non-bindable>1, 2, 3, 4, 5</span></dd> <dt>n_hops:</dt><dd><span ng-non-bindable>5</span></dd> <dt>max_rtt:</dt><dd><span ng-non-bindable>1.8</span></dd> <dt>hash:</dt><dd><span ng-non-bindable>7,179,762,254,363,141,120</span></dd> <dt>_id:</dt><dd><span ng-non-bindable>-2661133586502643203</span></dd> <dt>_type:</dt><dd><span ng-non-bindable>doc</span></dd> <dt>_index:</dt><dd><span ng-non-bindable>ps_trace-2019.8.12</span></dd> </dl></span>"
+        },
+        "$$_formatted": {
+          "MA": "<span ng-non-bindable>18.12.1.171</span>",
+          "src": "<span ng-non-bindable>18.12.1.171</span>",
+          "dest": "<span ng-non-bindable>18.71.0.151</span>",
+          "src_host": "<span ng-non-bindable>18.12.1.171</span>",
+          "dest_host": "<span ng-non-bindable>STRAWB.MIT.EDU</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_site": "<span ng-non-bindable>MIT_CMS</span>",
+          "src_VO": "<span ng-non-bindable>UNKNOWN</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 16:33:28.000</span>",
+          "hops": "<span ng-non-bindable>18.12.0.1, 18.0.162.37, 18.0.162.5, 18.0.161.2, 18.0.193.66</span>",
+          "asns": "<span ng-non-bindable>3, 3, 3, 3, 3</span>",
+          "rtts": "<span ng-non-bindable>0.7, 1.5, 1.7, 1.6, 1.8</span>",
+          "ttls": "<span ng-non-bindable>1, 2, 3, 4, 5</span>",
+          "n_hops": "<span ng-non-bindable>5</span>",
+          "max_rtt": "<span ng-non-bindable>1.8</span>",
+          "hash": "<span ng-non-bindable>7,179,762,254,363,141,120</span>",
+          "_id": "<span ng-non-bindable>-2661133586502643203</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_trace-2019.8.12</span>"
+        }
+      },
+      {
+        "_index": "ps_trace-2019.8.12",
+        "_type": "doc",
+        "_id": "-907792928744826347",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "193.48.99.76",
+          "src": "193.48.99.76",
+          "dest": "141.142.176.3",
+          "src_host": "193.48.99.76",
+          "dest_host": "psl-bw.ncsa.illinois.edu",
+          "ipv6": false,
+          "src_site": "IN2P3-CC",
+          "src_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565652797000,
+          "hops": [
+            "193.48.99.100",
+            "192.70.69.153",
+            "192.70.69.142",
+            "141.142.128.18",
+            "141.142.129.2",
+            "141.142.176.3"
+          ],
+          "asns": [
+            789,
+            2200,
+            2200,
+            1224,
+            1224,
+            1224
+          ],
+          "rtts": [
+            0.6,
+            0.7,
+            99.9,
+            99.9,
+            99.8,
+            99.9
+          ],
+          "ttls": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "n_hops": 6,
+          "max_rtt": 99.9,
+          "hash": 379195552510716700
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-12T23:33:17.000Z"
+          ]
+        },
+        "sort": [
+          1565652797000
+        ],
+        "$$_flattened": {
+          "MA": "193.48.99.76",
+          "src": "193.48.99.76",
+          "dest": "141.142.176.3",
+          "src_host": "193.48.99.76",
+          "dest_host": "psl-bw.ncsa.illinois.edu",
+          "ipv6": false,
+          "src_site": "IN2P3-CC",
+          "src_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-12T23:33:17.000Z",
+          "hops": [
+            "193.48.99.100",
+            "192.70.69.153",
+            "192.70.69.142",
+            "141.142.128.18",
+            "141.142.129.2",
+            "141.142.176.3"
+          ],
+          "asns": [
+            789,
+            2200,
+            2200,
+            1224,
+            1224,
+            1224
+          ],
+          "rtts": [
+            0.6,
+            0.7,
+            99.9,
+            99.9,
+            99.8,
+            99.9
+          ],
+          "ttls": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "n_hops": 6,
+          "max_rtt": 99.9,
+          "hash": 379195552510716700,
+          "_id": "-907792928744826347",
+          "_type": "doc",
+          "_index": "ps_trace-2019.8.12"
+        },
+        "$$_partialFormatted": {
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 16:33:17.000</span>",
+          "MA": "<span ng-non-bindable>193.48.99.76</span>",
+          "src": "<span ng-non-bindable>193.48.99.76</span>",
+          "dest": "<span ng-non-bindable>141.142.176.3</span>",
+          "src_host": "<span ng-non-bindable>193.48.99.76</span>",
+          "dest_host": "<span ng-non-bindable>psl-bw.ncsa.illinois.edu</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_site": "<span ng-non-bindable>IN2P3-CC</span>",
+          "src_VO": "<span ng-non-bindable>ATLAS</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "hops": "<span ng-non-bindable>193.48.99.100, 192.70.69.153, 192.70.69.142, 141.142.128.18, 141.142.129.2, 141.142.176.3</span>",
+          "asns": "<span ng-non-bindable>789, 2,200, 2,200, 1,224, 1,224, 1,224</span>",
+          "rtts": "<span ng-non-bindable>0.6, 0.7, 99.9, 99.9, 99.8, 99.9</span>",
+          "ttls": "<span ng-non-bindable>1, 2, 3, 4, 5, 6</span>",
+          "n_hops": "<span ng-non-bindable>6</span>",
+          "max_rtt": "<span ng-non-bindable>99.9</span>",
+          "hash": "<span ng-non-bindable>379,195,552,510,716,672</span>",
+          "_id": "<span ng-non-bindable>-907792928744826347</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_trace-2019.8.12</span>",
+          "_source": "<span ng-non-bindable>\n  <dl class=\"source truncate-by-height\"><dt>MA:</dt><dd><span ng-non-bindable>193.48.99.76</span></dd> <dt>src:</dt><dd><span ng-non-bindable>193.48.99.76</span></dd> <dt>dest:</dt><dd><span ng-non-bindable>141.142.176.3</span></dd> <dt>src_host:</dt><dd><span ng-non-bindable>193.48.99.76</span></dd> <dt>dest_host:</dt><dd><span ng-non-bindable>psl-bw.ncsa.illinois.edu</span></dd> <dt>ipv6:</dt><dd><span ng-non-bindable>false</span></dd> <dt>src_site:</dt><dd><span ng-non-bindable>IN2P3-CC</span></dd> <dt>src_VO:</dt><dd><span ng-non-bindable>ATLAS</span></dd> <dt>src_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>dest_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>timestamp:</dt><dd><span ng-non-bindable>August 12th 2019, 16:33:17.000</span></dd> <dt>hops:</dt><dd><span ng-non-bindable>193.48.99.100, 192.70.69.153, 192.70.69.142, 141.142.128.18, 141.142.129.2, 141.142.176.3</span></dd> <dt>asns:</dt><dd><span ng-non-bindable>789, 2,200, 2,200, 1,224, 1,224, 1,224</span></dd> <dt>rtts:</dt><dd><span ng-non-bindable>0.6, 0.7, 99.9, 99.9, 99.8, 99.9</span></dd> <dt>ttls:</dt><dd><span ng-non-bindable>1, 2, 3, 4, 5, 6</span></dd> <dt>n_hops:</dt><dd><span ng-non-bindable>6</span></dd> <dt>max_rtt:</dt><dd><span ng-non-bindable>99.9</span></dd> <dt>hash:</dt><dd><span ng-non-bindable>379,195,552,510,716,672</span></dd> <dt>_id:</dt><dd><span ng-non-bindable>-907792928744826347</span></dd> <dt>_type:</dt><dd><span ng-non-bindable>doc</span></dd> <dt>_index:</dt><dd><span ng-non-bindable>ps_trace-2019.8.12</span></dd> </dl></span>"
+        },
+        "$$_formatted": {
+          "MA": "<span ng-non-bindable>193.48.99.76</span>",
+          "src": "<span ng-non-bindable>193.48.99.76</span>",
+          "dest": "<span ng-non-bindable>141.142.176.3</span>",
+          "src_host": "<span ng-non-bindable>193.48.99.76</span>",
+          "dest_host": "<span ng-non-bindable>psl-bw.ncsa.illinois.edu</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_site": "<span ng-non-bindable>IN2P3-CC</span>",
+          "src_VO": "<span ng-non-bindable>ATLAS</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 16:33:17.000</span>",
+          "hops": "<span ng-non-bindable>193.48.99.100, 192.70.69.153, 192.70.69.142, 141.142.128.18, 141.142.129.2, 141.142.176.3</span>",
+          "asns": "<span ng-non-bindable>789, 2,200, 2,200, 1,224, 1,224, 1,224</span>",
+          "rtts": "<span ng-non-bindable>0.6, 0.7, 99.9, 99.9, 99.8, 99.9</span>",
+          "ttls": "<span ng-non-bindable>1, 2, 3, 4, 5, 6</span>",
+          "n_hops": "<span ng-non-bindable>6</span>",
+          "max_rtt": "<span ng-non-bindable>99.9</span>",
+          "hash": "<span ng-non-bindable>379,195,552,510,716,672</span>",
+          "_id": "<span ng-non-bindable>-907792928744826347</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_trace-2019.8.12</span>"
+        }
+      }
+    ]
+  }
+}

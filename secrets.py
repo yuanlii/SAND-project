@@ -1,0 +1,1 @@
+pgAdmin_master_password = 'gr/et50a'

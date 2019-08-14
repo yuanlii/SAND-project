@@ -1,0 +1,473 @@
+{
+  "took": 274,
+  "timed_out": false,
+  "_shards": {
+    "total": 3140,
+    "successful": 3140,
+    "skipped": 3135,
+    "failed": 0
+  },
+  "hits": {
+    "total": 4969,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "ps_packetloss-2019.8.12",
+        "_type": "doc",
+        "_id": "-5989390365501833328",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "202.13.203.129",
+          "src": "202.13.203.129",
+          "dest": "198.124.252.106",
+          "src_host": "202.13.203.129",
+          "dest_host": "star-owamp.es.net",
+          "ipv6": false,
+          "src_site": "JP-KEK-CRC-02",
+          "src_VO": "UNKNOWN",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565650718000,
+          "packet_loss": 0.7
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-12T22:58:38.000Z"
+          ]
+        },
+        "sort": [
+          1565650718000
+        ],
+        "$$_flattened": {
+          "MA": "202.13.203.129",
+          "src": "202.13.203.129",
+          "dest": "198.124.252.106",
+          "src_host": "202.13.203.129",
+          "dest_host": "star-owamp.es.net",
+          "ipv6": false,
+          "src_site": "JP-KEK-CRC-02",
+          "src_VO": "UNKNOWN",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-12T22:58:38.000Z",
+          "packet_loss": 0.7,
+          "_id": "-5989390365501833328",
+          "_type": "doc",
+          "_index": "ps_packetloss-2019.8.12"
+        },
+        "$$_partialFormatted": {
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 15:58:38.000</span>",
+          "MA": "<span ng-non-bindable>202.13.203.129</span>",
+          "src": "<span ng-non-bindable>202.13.203.129</span>",
+          "dest": "<span ng-non-bindable>198.124.252.106</span>",
+          "src_host": "<span ng-non-bindable>202.13.203.129</span>",
+          "dest_host": "<span ng-non-bindable>star-owamp.es.net</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_site": "<span ng-non-bindable>JP-KEK-CRC-02</span>",
+          "src_VO": "<span ng-non-bindable>UNKNOWN</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "packet_loss": "<span ng-non-bindable>0</span>",
+          "_id": "<span ng-non-bindable>-5989390365501833328</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_packetloss-2019.8.12</span>",
+          "_source": "<span ng-non-bindable>\n  <dl class=\"source truncate-by-height\"><dt>MA:</dt><dd><span ng-non-bindable>202.13.203.129</span></dd> <dt>src:</dt><dd><span ng-non-bindable>202.13.203.129</span></dd> <dt>dest:</dt><dd><span ng-non-bindable>198.124.252.106</span></dd> <dt>src_host:</dt><dd><span ng-non-bindable>202.13.203.129</span></dd> <dt>dest_host:</dt><dd><span ng-non-bindable>star-owamp.es.net</span></dd> <dt>ipv6:</dt><dd><span ng-non-bindable>false</span></dd> <dt>src_site:</dt><dd><span ng-non-bindable>JP-KEK-CRC-02</span></dd> <dt>src_VO:</dt><dd><span ng-non-bindable>UNKNOWN</span></dd> <dt>src_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>dest_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>timestamp:</dt><dd><span ng-non-bindable>August 12th 2019, 15:58:38.000</span></dd> <dt>packet_loss:</dt><dd><span ng-non-bindable>0</span></dd> <dt>_id:</dt><dd><span ng-non-bindable>-5989390365501833328</span></dd> <dt>_type:</dt><dd><span ng-non-bindable>doc</span></dd> <dt>_index:</dt><dd><span ng-non-bindable>ps_packetloss-2019.8.12</span></dd> </dl></span>"
+        },
+        "$$_formatted": {
+          "MA": "<span ng-non-bindable>202.13.203.129</span>",
+          "src": "<span ng-non-bindable>202.13.203.129</span>",
+          "dest": "<span ng-non-bindable>198.124.252.106</span>",
+          "src_host": "<span ng-non-bindable>202.13.203.129</span>",
+          "dest_host": "<span ng-non-bindable>star-owamp.es.net</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_site": "<span ng-non-bindable>JP-KEK-CRC-02</span>",
+          "src_VO": "<span ng-non-bindable>UNKNOWN</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 15:58:38.000</span>",
+          "packet_loss": "<span ng-non-bindable>0</span>",
+          "_id": "<span ng-non-bindable>-5989390365501833328</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_packetloss-2019.8.12</span>"
+        }
+      },
+      {
+        "_index": "ps_packetloss-2019.8.12",
+        "_type": "doc",
+        "_id": "-1743342864601613521",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "194.83.97.209",
+          "src": "194.83.97.209",
+          "dest": "128.171.74.59",
+          "src_host": "ps-londhx1.ja.net",
+          "dest_host": "ifa-mko10g-tp.ps.uhnet.net",
+          "ipv6": false,
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565650709000,
+          "packet_loss": 0.8
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-12T22:58:29.000Z"
+          ]
+        },
+        "sort": [
+          1565650709000
+        ],
+        "$$_flattened": {
+          "MA": "194.83.97.209",
+          "src": "194.83.97.209",
+          "dest": "128.171.74.59",
+          "src_host": "ps-londhx1.ja.net",
+          "dest_host": "ifa-mko10g-tp.ps.uhnet.net",
+          "ipv6": false,
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-12T22:58:29.000Z",
+          "packet_loss": 0.8,
+          "_id": "-1743342864601613521",
+          "_type": "doc",
+          "_index": "ps_packetloss-2019.8.12"
+        },
+        "$$_partialFormatted": {
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 15:58:29.000</span>",
+          "MA": "<span ng-non-bindable>194.83.97.209</span>",
+          "src": "<span ng-non-bindable>194.83.97.209</span>",
+          "dest": "<span ng-non-bindable>128.171.74.59</span>",
+          "src_host": "<span ng-non-bindable>ps-londhx1.ja.net</span>",
+          "dest_host": "<span ng-non-bindable>ifa-mko10g-tp.ps.uhnet.net</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "packet_loss": "<span ng-non-bindable>0</span>",
+          "_id": "<span ng-non-bindable>-1743342864601613521</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_packetloss-2019.8.12</span>",
+          "_source": "<span ng-non-bindable>\n  <dl class=\"source truncate-by-height\"><dt>MA:</dt><dd><span ng-non-bindable>194.83.97.209</span></dd> <dt>src:</dt><dd><span ng-non-bindable>194.83.97.209</span></dd> <dt>dest:</dt><dd><span ng-non-bindable>128.171.74.59</span></dd> <dt>src_host:</dt><dd><span ng-non-bindable>ps-londhx1.ja.net</span></dd> <dt>dest_host:</dt><dd><span ng-non-bindable>ifa-mko10g-tp.ps.uhnet.net</span></dd> <dt>ipv6:</dt><dd><span ng-non-bindable>false</span></dd> <dt>src_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>dest_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>timestamp:</dt><dd><span ng-non-bindable>August 12th 2019, 15:58:29.000</span></dd> <dt>packet_loss:</dt><dd><span ng-non-bindable>0</span></dd> <dt>_id:</dt><dd><span ng-non-bindable>-1743342864601613521</span></dd> <dt>_type:</dt><dd><span ng-non-bindable>doc</span></dd> <dt>_index:</dt><dd><span ng-non-bindable>ps_packetloss-2019.8.12</span></dd> </dl></span>"
+        },
+        "$$_formatted": {
+          "MA": "<span ng-non-bindable>194.83.97.209</span>",
+          "src": "<span ng-non-bindable>194.83.97.209</span>",
+          "dest": "<span ng-non-bindable>128.171.74.59</span>",
+          "src_host": "<span ng-non-bindable>ps-londhx1.ja.net</span>",
+          "dest_host": "<span ng-non-bindable>ifa-mko10g-tp.ps.uhnet.net</span>",
+          "ipv6": "<span ng-non-bindable>false</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 15:58:29.000</span>",
+          "packet_loss": "<span ng-non-bindable>0</span>",
+          "_id": "<span ng-non-bindable>-1743342864601613521</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_packetloss-2019.8.12</span>"
+        }
+      },
+      {
+        "_index": "ps_packetloss-2019.8.12",
+        "_type": "doc",
+        "_id": "-8205481140181674280",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "2001:630:3c:f800::209",
+          "src": "2001:630:3c:f800::209",
+          "dest": "2001:630:3c:f803::a",
+          "src_host": "ps-londhx1.ja.net",
+          "dest_host": "ps-slough-1g.ja.net",
+          "ipv6": true,
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565650708000,
+          "packet_loss": 0.32
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-12T22:58:28.000Z"
+          ]
+        },
+        "sort": [
+          1565650708000
+        ],
+        "$$_flattened": {
+          "MA": "2001:630:3c:f800::209",
+          "src": "2001:630:3c:f800::209",
+          "dest": "2001:630:3c:f803::a",
+          "src_host": "ps-londhx1.ja.net",
+          "dest_host": "ps-slough-1g.ja.net",
+          "ipv6": true,
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-12T22:58:28.000Z",
+          "packet_loss": 0.32,
+          "_id": "-8205481140181674280",
+          "_type": "doc",
+          "_index": "ps_packetloss-2019.8.12"
+        },
+        "$$_partialFormatted": {
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 15:58:28.000</span>",
+          "MA": "<span ng-non-bindable>2001:630:3c:f800::209</span>",
+          "src": "<span ng-non-bindable>2001:630:3c:f800::209</span>",
+          "dest": "<span ng-non-bindable>2001:630:3c:f803::a</span>",
+          "src_host": "<span ng-non-bindable>ps-londhx1.ja.net</span>",
+          "dest_host": "<span ng-non-bindable>ps-slough-1g.ja.net</span>",
+          "ipv6": "<span ng-non-bindable>true</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "packet_loss": "<span ng-non-bindable>0</span>",
+          "_id": "<span ng-non-bindable>-8205481140181674280</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_packetloss-2019.8.12</span>",
+          "_source": "<span ng-non-bindable>\n  <dl class=\"source truncate-by-height\"><dt>MA:</dt><dd><span ng-non-bindable>2001:630:3c:f800::209</span></dd> <dt>src:</dt><dd><span ng-non-bindable>2001:630:3c:f800::209</span></dd> <dt>dest:</dt><dd><span ng-non-bindable>2001:630:3c:f803::a</span></dd> <dt>src_host:</dt><dd><span ng-non-bindable>ps-londhx1.ja.net</span></dd> <dt>dest_host:</dt><dd><span ng-non-bindable>ps-slough-1g.ja.net</span></dd> <dt>ipv6:</dt><dd><span ng-non-bindable>true</span></dd> <dt>src_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>dest_production:</dt><dd><span ng-non-bindable>false</span></dd> <dt>timestamp:</dt><dd><span ng-non-bindable>August 12th 2019, 15:58:28.000</span></dd> <dt>packet_loss:</dt><dd><span ng-non-bindable>0</span></dd> <dt>_id:</dt><dd><span ng-non-bindable>-8205481140181674280</span></dd> <dt>_type:</dt><dd><span ng-non-bindable>doc</span></dd> <dt>_index:</dt><dd><span ng-non-bindable>ps_packetloss-2019.8.12</span></dd> </dl></span>"
+        },
+        "$$_formatted": {
+          "MA": "<span ng-non-bindable>2001:630:3c:f800::209</span>",
+          "src": "<span ng-non-bindable>2001:630:3c:f800::209</span>",
+          "dest": "<span ng-non-bindable>2001:630:3c:f803::a</span>",
+          "src_host": "<span ng-non-bindable>ps-londhx1.ja.net</span>",
+          "dest_host": "<span ng-non-bindable>ps-slough-1g.ja.net</span>",
+          "ipv6": "<span ng-non-bindable>true</span>",
+          "src_production": "<span ng-non-bindable>false</span>",
+          "dest_production": "<span ng-non-bindable>false</span>",
+          "timestamp": "<span ng-non-bindable>August 12th 2019, 15:58:28.000</span>",
+          "packet_loss": "<span ng-non-bindable>0</span>",
+          "_id": "<span ng-non-bindable>-8205481140181674280</span>",
+          "_type": "<span ng-non-bindable>doc</span>",
+          "_index": "<span ng-non-bindable>ps_packetloss-2019.8.12</span>"
+        }
+      },
+      {
+        "_index": "ps_packetloss-2019.8.14",
+        "_type": "doc",
+        "_id": "9116876573950556323",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "dest": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src_host": "56m-ps.sox.net",
+          "dest_host": "perfsonar.unl.edu",
+          "ipv6": true,
+          "dest_site": "Nebraska",
+          "dest_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565765195000,
+          "packet_loss": 0.5516666666666666
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-14T06:46:35.000Z"
+          ]
+        },
+        "sort": [
+          1565765195000
+        ],
+        "$$_flattened": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "dest": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src_host": "56m-ps.sox.net",
+          "dest_host": "perfsonar.unl.edu",
+          "ipv6": true,
+          "dest_site": "Nebraska",
+          "dest_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-14T06:46:35.000Z",
+          "packet_loss": 0.5516666666666666,
+          "_id": "9116876573950556323",
+          "_type": "doc",
+          "_index": "ps_packetloss-2019.8.14"
+        }
+      },
+      {
+        "_index": "ps_packetloss-2019.8.14",
+        "_type": "doc",
+        "_id": "9116874487942201723",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "dest": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src_host": "56m-ps.sox.net",
+          "dest_host": "perfsonar.unl.edu",
+          "ipv6": true,
+          "dest_site": "Nebraska",
+          "dest_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565765038000,
+          "packet_loss": 0.33639705882352944
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-14T06:43:58.000Z"
+          ]
+        },
+        "sort": [
+          1565765038000
+        ],
+        "$$_flattened": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "dest": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src_host": "56m-ps.sox.net",
+          "dest_host": "perfsonar.unl.edu",
+          "ipv6": true,
+          "dest_site": "Nebraska",
+          "dest_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-14T06:43:58.000Z",
+          "packet_loss": 0.33639705882352944,
+          "_id": "9116874487942201723",
+          "_type": "doc",
+          "_index": "ps_packetloss-2019.8.14"
+        }
+      },
+      {
+        "_index": "ps_packetloss-2019.8.14",
+        "_type": "doc",
+        "_id": "7789469373360982680",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "dest": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "src_host": "perfsonar.unl.edu",
+          "dest_host": "56m-ps.sox.net",
+          "ipv6": true,
+          "src_site": "Nebraska",
+          "src_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565764959000,
+          "packet_loss": 0.9666666666666667
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-14T06:42:39.000Z"
+          ]
+        },
+        "sort": [
+          1565764959000
+        ],
+        "$$_flattened": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "dest": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "src_host": "perfsonar.unl.edu",
+          "dest_host": "56m-ps.sox.net",
+          "ipv6": true,
+          "src_site": "Nebraska",
+          "src_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-14T06:42:39.000Z",
+          "packet_loss": 0.9666666666666667,
+          "_id": "7789469373360982680",
+          "_type": "doc",
+          "_index": "ps_packetloss-2019.8.14"
+        }
+      },
+      {
+        "_index": "ps_packetloss-2019.8.14",
+        "_type": "doc",
+        "_id": "9116874600221694723",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "dest": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src_host": "56m-ps.sox.net",
+          "dest_host": "perfsonar.unl.edu",
+          "ipv6": true,
+          "dest_site": "Nebraska",
+          "dest_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565764879000,
+          "packet_loss": 0.45119705340699817
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-14T06:41:19.000Z"
+          ]
+        },
+        "sort": [
+          1565764879000
+        ],
+        "$$_flattened": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "dest": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src_host": "56m-ps.sox.net",
+          "dest_host": "perfsonar.unl.edu",
+          "ipv6": true,
+          "dest_site": "Nebraska",
+          "dest_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-14T06:41:19.000Z",
+          "packet_loss": 0.45119705340699817,
+          "_id": "9116874600221694723",
+          "_type": "doc",
+          "_index": "ps_packetloss-2019.8.14"
+        }
+      },
+      {
+        "_index": "ps_packetloss-2019.8.14",
+        "_type": "doc",
+        "_id": "7789469977842942680",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "dest": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "src_host": "perfsonar.unl.edu",
+          "dest_host": "56m-ps.sox.net",
+          "ipv6": true,
+          "src_site": "Nebraska",
+          "src_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": 1565764519000,
+          "packet_loss": 0.89
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-14T06:35:19.000Z"
+          ]
+        },
+        "sort": [
+          1565764519000
+        ],
+        "$$_flattened": {
+          "MA": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "src": "2600:900:0:3:92e2:baff:fe2b:9050",
+          "dest": "2607:f7b8:eeee:eeee:260:ddff:fe44:a2e6",
+          "src_host": "perfsonar.unl.edu",
+          "dest_host": "56m-ps.sox.net",
+          "ipv6": true,
+          "src_site": "Nebraska",
+          "src_VO": "ATLAS",
+          "src_production": false,
+          "dest_production": false,
+          "timestamp": "2019-08-14T06:35:19.000Z",
+          "packet_loss": 0.89,
+          "_id": "7789469977842942680",
+          "_type": "doc",
+          "_index": "ps_packetloss-2019.8.14"
+        }
+      }
+    ]
+}
+}

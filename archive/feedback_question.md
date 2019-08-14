@@ -63,3 +63,16 @@ timeseries, correlation, similarity, anomaly detection
 count指的是什么 => 以12hrs作为interval| 是指在这12小时之内出现的packet loss的record吗？（包括packet loss为0的record吗？） （亟待回答的问题）**
 
 
+__08/09/2019__:
+Problem: 
+Can’t open Kibana dashboard, even connected to UM VPN
+Kibana dev dashboard
+
+Diagnostic - able to access UM Elk: 
+From UM campus networks you should be able to access our ELK instance at AGLT2
+
+packet-loss:
+- packet loss between src and dest, would it have multiple hops in between? --> trying to map packet loss to trace route 
+- packet loss = 1 needs to pay attention?
+
+
