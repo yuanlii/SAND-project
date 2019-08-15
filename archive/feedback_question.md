@@ -75,4 +75,6 @@ packet-loss:
 - packet loss between src and dest, would it have multiple hops in between? --> trying to map packet loss to trace route 
 - packet loss = 1 needs to pay attention?
 
+Src, dest with geological mapping?
+
 
