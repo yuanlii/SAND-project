@@ -1,0 +1,2424 @@
+{
+  "took" : 797,
+  "timed_out" : false,
+  "num_reduce_phases" : 7,
+  "_shards" : {
+    "total" : 3225,
+    "successful" : 3225,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2127945304,
+    "max_score" : 0.0,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "langs" : {
+      "doc_count_error_upper_bound" : 1,
+      "sum_other_doc_count" : 243730,
+      "buckets" : [
+        {
+          "key" : "ccperfsonar2.in2p3.fr",
+          "doc_count" : 57809285
+        },
+        {
+          "key" : "llrpsonar1.in2p3.fr",
+          "doc_count" : 48196861
+        },
+        {
+          "key" : "lcgps01.gridpp.rl.ac.uk",
+          "doc_count" : 47857052
+        },
+        {
+          "key" : "perfsonar2.na.infn.it",
+          "doc_count" : 46884895
+        },
+        {
+          "key" : "lpnhe-psl.in2p3.fr",
+          "doc_count" : 46085060
+        },
+        {
+          "key" : "perfsonar2.ihep.ac.cn",
+          "doc_count" : 42007853
+        },
+        {
+          "key" : "lhcperfmon.bnl.gov",
+          "doc_count" : 40838033
+        },
+        {
+          "key" : "gridpp-ps-lat.ecdf.ed.ac.uk",
+          "doc_count" : 39618168
+        },
+        {
+          "key" : "t2ps-latency.physics.ox.ac.uk",
+          "doc_count" : 38959970
+        },
+        {
+          "key" : "hepsonar2.ph.liv.ac.uk",
+          "doc_count" : 37487681
+        },
+        {
+          "key" : "marperf02.in2p3.fr",
+          "doc_count" : 37346411
+        },
+        {
+          "key" : "perfson1.ppgrid1.rhul.ac.uk",
+          "doc_count" : 36395390
+        },
+        {
+          "key" : "perfsonar01.datagrid.cea.fr",
+          "doc_count" : 35606496
+        },
+        {
+          "key" : "perfson1.zeuthen.desy.de",
+          "doc_count" : 35089253
+        },
+        {
+          "key" : "ps0002.m45.ihep.su",
+          "doc_count" : 34182326
+        },
+        {
+          "key" : "clrperf-owamp.in2p3.fr",
+          "doc_count" : 33337595
+        },
+        {
+          "key" : "lapp-ps02.in2p3.fr",
+          "doc_count" : 32926681
+        },
+        {
+          "key" : "psl01.pic.es",
+          "doc_count" : 32736803
+        },
+        {
+          "key" : "iut2-net1.iu.edu",
+          "doc_count" : 32681978
+        },
+        {
+          "key" : "ps-latency.hepnetcanada.ca",
+          "doc_count" : 32599617
+        },
+        {
+          "key" : "ps002.gla.scotgrid.ac.uk",
+          "doc_count" : 32595924
+        },
+        {
+          "key" : "ps-latency.atlas.unimelb.edu.au",
+          "doc_count" : 32481219
+        },
+        {
+          "key" : "lcg-lat.sfu.computecanada.ca",
+          "doc_count" : 31854234
+        },
+        {
+          "key" : "perfsonar-ow.cnaf.infn.it",
+          "doc_count" : 31848481
+        },
+        {
+          "key" : "perfsonar2-de-kit.gridka.de",
+          "doc_count" : 29794364
+        },
+        {
+          "key" : "psonar1.lal.in2p3.fr",
+          "doc_count" : 28698631
+        },
+        {
+          "key" : "serv04.hep.phy.cam.ac.uk",
+          "doc_count" : 28469798
+        },
+        {
+          "key" : "perfsonar-latency.esc.qmul.ac.uk",
+          "doc_count" : 27569105
+        },
+        {
+          "key" : "perfsonar02-iep-grid.saske.sk",
+          "doc_count" : 25457296
+        },
+        {
+          "key" : "perfmon.dur.scotgrid.ac.uk",
+          "doc_count" : 25397308
+        },
+        {
+          "key" : "mwt2-ps01.campuscluster.illinois.edu",
+          "doc_count" : 25340811
+        },
+        {
+          "key" : "btw-lat.t1.grid.kiae.ru",
+          "doc_count" : 25163564
+        },
+        {
+          "key" : "perfsonar-ps.ndgf.org",
+          "doc_count" : 25130960
+        },
+        {
+          "key" : "perfsonar01.ft.uam.es",
+          "doc_count" : 25107079
+        },
+        {
+          "key" : "psonar.cis.gov.pl",
+          "doc_count" : 24990957
+        },
+        {
+          "key" : "tech-ps.hep.technion.ac.il",
+          "doc_count" : 24285990
+        },
+        {
+          "key" : "psific01.ific.uv.es",
+          "doc_count" : 23479246
+        },
+        {
+          "key" : "atlas-npt1.bu.edu",
+          "doc_count" : 23124295
+        },
+        {
+          "key" : "perfsonar.unl.edu",
+          "doc_count" : 22743843
+        },
+        {
+          "key" : "hcc-ps01.unl.edu",
+          "doc_count" : 22200853
+        },
+        {
+          "key" : "btw-lat.grid.kiae.ru",
+          "doc_count" : 21574686
+        },
+        {
+          "key" : "perfsonar-latency.grid.surfsara.nl",
+          "doc_count" : 21401606
+        },
+        {
+          "key" : "psmsu01.aglt2.org",
+          "doc_count" : 21235485
+        },
+        {
+          "key" : "ps1.kipt.kharkov.ua",
+          "doc_count" : 20375764
+        },
+        {
+          "key" : "lcg-pslat.uw.computecanada.ca",
+          "doc_count" : 20080044
+        },
+        {
+          "key" : "psl.hpc.utfsm.cl",
+          "doc_count" : 19741813
+        },
+        {
+          "key" : "ps.truba.gov.tr",
+          "doc_count" : 18645171
+        },
+        {
+          "key" : "perfsonar01.cmsaf.mit.edu",
+          "doc_count" : 17850667
+        },
+        {
+          "key" : "perfsonar1.ihepa.ufl.edu",
+          "doc_count" : 16944948
+        },
+        {
+          "key" : "perfsonar01.lcg.cscs.ch",
+          "doc_count" : 16898515
+        },
+        {
+          "key" : "perfsonar01.hep.wisc.edu",
+          "doc_count" : 16732058
+        },
+        {
+          "key" : "perfsonar2.nipne.ro",
+          "doc_count" : 16599392
+        },
+        {
+          "key" : "pygrid-sonar2.lancs.ac.uk",
+          "doc_count" : 15982763
+        },
+        {
+          "key" : "t1-pfsn2.jinr-t1.ru",
+          "doc_count" : 15248870
+        },
+        {
+          "key" : "perfsonar2.roma1.infn.it",
+          "doc_count" : 15182664
+        },
+        {
+          "key" : "ps-londhx1.ja.net",
+          "doc_count" : 15016197
+        },
+        {
+          "key" : "perfsonar-lt.cern.ch",
+          "doc_count" : 14699517
+        },
+        {
+          "key" : "psl01-gva.cern.ch",
+          "doc_count" : 14678363
+        },
+        {
+          "key" : "psonar4.fnal.gov",
+          "doc_count" : 13595385
+        },
+        {
+          "key" : "psum01.aglt2.org",
+          "doc_count" : 13433577
+        },
+        {
+          "key" : "perfsonar-2.t2.ucsd.edu",
+          "doc_count" : 13250197
+        },
+        {
+          "key" : "ps-01.lnl.infn.it",
+          "doc_count" : 12244387
+        },
+        {
+          "key" : "ps-gsdc01.sdfarm.kr",
+          "doc_count" : 12114950
+        },
+        {
+          "key" : "t2-pfsn2.jinr.ru",
+          "doc_count" : 11124674
+        },
+        {
+          "key" : "ps-latency.scinet.utoronto.ca",
+          "doc_count" : 10963346
+        },
+        {
+          "key" : "pship01.csc.fi",
+          "doc_count" : 10689281
+        },
+        {
+          "key" : "perfsonar-latency.grid.pub.ro",
+          "doc_count" : 10510748
+        },
+        {
+          "key" : "nanperfs01.in2p3.fr",
+          "doc_count" : 10365934
+        },
+        {
+          "key" : "ps01.cat.cbpf.br",
+          "doc_count" : 10328202
+        },
+        {
+          "key" : "psuta01.atlas-swt2.org",
+          "doc_count" : 10305140
+        },
+        {
+          "key" : "psfrascati02.lnf.infn.it",
+          "doc_count" : 10294870
+        },
+        {
+          "key" : "lcgperfradar.dnp.fmph.uniba.sk",
+          "doc_count" : 10289535
+        },
+        {
+          "key" : "grid-perfsonar.hpc.susx.ac.uk",
+          "doc_count" : 10171314
+        },
+        {
+          "key" : "uct2-net1.mwt2.org",
+          "doc_count" : 10010197
+        },
+        {
+          "key" : "perfsonar2.cc.kek.jp",
+          "doc_count" : 9839854
+        },
+        {
+          "key" : "lpsc-perfsonar2.in2p3.fr",
+          "doc_count" : 9829382
+        },
+        {
+          "key" : "perfsonar2-grid.uaic.ro",
+          "doc_count" : 9467785
+        },
+        {
+          "key" : "perfsonar-owamp.accre.vanderbilt.edu",
+          "doc_count" : 8869673
+        },
+        {
+          "key" : "lcg-sonar01.hep.ucl.ac.uk",
+          "doc_count" : 8286049
+        },
+        {
+          "key" : "perfsonar2.ultralight.org",
+          "doc_count" : 7620482
+        },
+        {
+          "key" : "iut2-net3.iu.edu",
+          "doc_count" : 7505010
+        },
+        {
+          "key" : "ps-latency.lhcmon.triumf.ca",
+          "doc_count" : 7351170
+        },
+        {
+          "key" : "ps01-l.farm.particle.cz",
+          "doc_count" : 7294230
+        },
+        {
+          "key" : "perfsonar-ps-latency.igfae.usc.es",
+          "doc_count" : 6839942
+        },
+        {
+          "key" : "sbgperfps1.in2p3.fr",
+          "doc_count" : 6598763
+        },
+        {
+          "key" : "epgperf.ph.bham.ac.uk",
+          "doc_count" : 6284743
+        },
+        {
+          "key" : "uct2-net3.mwt2.org",
+          "doc_count" : 5973235
+        },
+        {
+          "key" : "193.239.180.211",
+          "doc_count" : 5544973
+        },
+        {
+          "key" : "lhc-latency.twgrid.org",
+          "doc_count" : 5359798
+        },
+        {
+          "key" : "117.103.105.191",
+          "doc_count" : 5310259
+        },
+        {
+          "key" : "mwt2-ps03.campuscluster.illinois.edu",
+          "doc_count" : 5283532
+        },
+        {
+          "key" : "perfsonar-ps-03.desy.de",
+          "doc_count" : 5277134
+        },
+        {
+          "key" : "perfsonar-ps-01.desy.de",
+          "doc_count" : 5273066
+        },
+        {
+          "key" : "tau.ijs.si",
+          "doc_count" : 5108796
+        },
+        {
+          "key" : "sonar2.itim-cj.ro",
+          "doc_count" : 4579346
+        },
+        {
+          "key" : "lutps1.lunet.edu",
+          "doc_count" : 4544460
+        },
+        {
+          "key" : "perfsonar-lt.sprace.org.br",
+          "doc_count" : 4417431
+        },
+        {
+          "key" : "perfsonar-cms1.itns.purdue.edu",
+          "doc_count" : 4350516
+        },
+        {
+          "key" : "perfsonar1.recas.ba.infn.it",
+          "doc_count" : 4021409
+        },
+        {
+          "key" : "grid-perf1.physik.rwth-aachen.de",
+          "doc_count" : 3571086
+        },
+        {
+          "key" : "dice-io-37-00.acrc.bris.ac.uk",
+          "doc_count" : 3547427
+        },
+        {
+          "key" : "192.101.107.152",
+          "doc_count" : 3419868
+        },
+        {
+          "key" : "lhcone-wash-opt1.es.net",
+          "doc_count" : 3367833
+        },
+        {
+          "key" : "ps-development.bnl.gov",
+          "doc_count" : 3108418
+        },
+        {
+          "key" : "netmon1.atlas-swt2.org",
+          "doc_count" : 3023503
+        },
+        {
+          "key" : "192.111.108.112",
+          "doc_count" : 3013836
+        },
+        {
+          "key" : "perfsonar-lt.tier2.hep.manchester.ac.uk",
+          "doc_count" : 2950153
+        },
+        {
+          "key" : "repos.indiacms.res.in",
+          "doc_count" : 2811016
+        },
+        {
+          "key" : "perfsonar-de-kit.gridka.de",
+          "doc_count" : 2737289
+        },
+        {
+          "key" : "perfsonar40-otc.hnsc.otc-service.com",
+          "doc_count" : 2553125
+        },
+        {
+          "key" : "202.13.203.129",
+          "doc_count" : 2412573
+        },
+        {
+          "key" : "146.83.90.7",
+          "doc_count" : 2363652
+        },
+        {
+          "key" : "131.243.24.11",
+          "doc_count" : 2234706
+        },
+        {
+          "key" : "2a00:fc00:e009::211",
+          "doc_count" : 2231114
+        },
+        {
+          "key" : "psmsu05.aglt2.org",
+          "doc_count" : 2066350
+        },
+        {
+          "key" : "nettest.lbl.gov",
+          "doc_count" : 1987254
+        },
+        {
+          "key" : "144.206.131.133",
+          "doc_count" : 1937227
+        },
+        {
+          "key" : "psum05.aglt2.org",
+          "doc_count" : 1904654
+        },
+        {
+          "key" : "psonar3.fnal.gov",
+          "doc_count" : 1881871
+        },
+        {
+          "key" : "ps01.iihe.ac.be",
+          "doc_count" : 1820414
+        },
+        {
+          "key" : "perfsonar1.hep.kbfi.ee",
+          "doc_count" : 1765864
+        },
+        {
+          "key" : "202.122.32.170",
+          "doc_count" : 1732612
+        },
+        {
+          "key" : "psonar-owamp.brazos.tamu.edu",
+          "doc_count" : 1721104
+        },
+        {
+          "key" : "iut2-net5.iu.edu",
+          "doc_count" : 1540595
+        },
+        {
+          "key" : "iut2-net7.iu.edu",
+          "doc_count" : 1525301
+        },
+        {
+          "key" : "192.84.86.122",
+          "doc_count" : 1453080
+        },
+        {
+          "key" : "200.17.30.135",
+          "doc_count" : 1187315
+        },
+        {
+          "key" : "perfsonar.nersc.gov",
+          "doc_count" : 1057552
+        },
+        {
+          "key" : "193.48.99.76",
+          "doc_count" : 1040538
+        },
+        {
+          "key" : "perfsonar-fra-1.exoscale.ch",
+          "doc_count" : 1006380
+        },
+        {
+          "key" : "ps1.ochep.ou.edu",
+          "doc_count" : 994990
+        },
+        {
+          "key" : "punditdev3.aglt2.org",
+          "doc_count" : 928453
+        },
+        {
+          "key" : "psum09.cc.gt.atl.ga.us",
+          "doc_count" : 904738
+        },
+        {
+          "key" : "18.12.1.171",
+          "doc_count" : 892991
+        },
+        {
+          "key" : "perfsonar-gva-1.exoscale.ch",
+          "doc_count" : 892549
+        },
+        {
+          "key" : "131.225.205.12",
+          "doc_count" : 873179
+        },
+        {
+          "key" : "ps3.ochep.ou.edu",
+          "doc_count" : 828207
+        },
+        {
+          "key" : "hep-ps-lt-bp.pp.rl.ac.uk",
+          "doc_count" : 779947
+        },
+        {
+          "key" : "212.193.96.29",
+          "doc_count" : 778571
+        },
+        {
+          "key" : "perfsonar01.hephy.oeaw.ac.at",
+          "doc_count" : 776193
+        },
+        {
+          "key" : "ps2.lhcopn-ps.surfsara.nl",
+          "doc_count" : 762659
+        },
+        {
+          "key" : "cloud-perfsonar.jinr.ru",
+          "doc_count" : 709894
+        },
+        {
+          "key" : "hcc-pki-ps01.unl.edu",
+          "doc_count" : 684418
+        },
+        {
+          "key" : "144.92.180.75",
+          "doc_count" : 681377
+        },
+        {
+          "key" : "sdm01.rcc.uchicago.edu",
+          "doc_count" : 654115
+        },
+        {
+          "key" : "t2-pfsn1.jinr.ru",
+          "doc_count" : 627823
+        },
+        {
+          "key" : "psmp-gn-owd-01.fra.de.geant.net",
+          "doc_count" : 600961
+        },
+        {
+          "key" : "psmp-gn-owd-01.ams.nl.geant.net",
+          "doc_count" : 597386
+        },
+        {
+          "key" : "85.122.31.120",
+          "doc_count" : 584666
+        },
+        {
+          "key" : "150.244.246.85",
+          "doc_count" : 545732
+        },
+        {
+          "key" : "lcgnetmon.phy.bris.ac.uk",
+          "doc_count" : 520958
+        },
+        {
+          "key" : "perfsonar1.ebi.ac.uk",
+          "doc_count" : 510806
+        },
+        {
+          "key" : "165.91.55.4",
+          "doc_count" : 507658
+        },
+        {
+          "key" : "lat-uofc-cgy.cybera.ca",
+          "doc_count" : 505085
+        },
+        {
+          "key" : "uofu-ddc-dmz-latency.chpc.utah.edu",
+          "doc_count" : 503657
+        },
+        {
+          "key" : "perfsonar-1850.frgp.net",
+          "doc_count" : 501775
+        },
+        {
+          "key" : "psmp-gn-owd-01.gen.ch.geant.net",
+          "doc_count" : 497852
+        },
+        {
+          "key" : "ps02-tuls.areon.net",
+          "doc_count" : 497637
+        },
+        {
+          "key" : "nersc-pt1.es.net",
+          "doc_count" : 495329
+        },
+        {
+          "key" : "perfsonar-test2.kek.jp",
+          "doc_count" : 491131
+        },
+        {
+          "key" : "psl-bw.ncsa.illinois.edu",
+          "doc_count" : 488021
+        },
+        {
+          "key" : "lat-uofa-edm.cybera.ca",
+          "doc_count" : 487677
+        },
+        {
+          "key" : "lbl-owamp.es.net",
+          "doc_count" : 483440
+        },
+        {
+          "key" : "ui01.lxfarm.mephi.ru",
+          "doc_count" : 483242
+        },
+        {
+          "key" : "psum01.itep.ru",
+          "doc_count" : 478861
+        },
+        {
+          "key" : "nmon-aa.mich.net",
+          "doc_count" : 475666
+        },
+        {
+          "key" : "ornl-owamp.es.net",
+          "doc_count" : 475016
+        },
+        {
+          "key" : "psonar2.fnal.gov",
+          "doc_count" : 465232
+        },
+        {
+          "key" : "alice14.spbu.ru",
+          "doc_count" : 458021
+        },
+        {
+          "key" : "perf-master.nysernet.org",
+          "doc_count" : 453460
+        },
+        {
+          "key" : "perf0.aa.internet2.edu",
+          "doc_count" : 451124
+        },
+        {
+          "key" : "pc138.physics.uoi.gr",
+          "doc_count" : 448675
+        },
+        {
+          "key" : "lhcone.test.manlan.internet2.edu",
+          "doc_count" : 443297
+        },
+        {
+          "key" : "137.222.79.1",
+          "doc_count" : 442578
+        },
+        {
+          "key" : "kc-core-psr.mo.more.net",
+          "doc_count" : 442420
+        },
+        {
+          "key" : "latency.eugn-perfsonar.nero.net",
+          "doc_count" : 441203
+        },
+        {
+          "key" : "ps3.njedge.net",
+          "doc_count" : 433998
+        },
+        {
+          "key" : "ps.3rox.net",
+          "doc_count" : 423525
+        },
+        {
+          "key" : "uofu-chpc-latency.chpc.utah.edu",
+          "doc_count" : 422590
+        },
+        {
+          "key" : "perfsonar-hartford.cen.ct.gov",
+          "doc_count" : 412245
+        },
+        {
+          "key" : "test.manlan.internet2.edu",
+          "doc_count" : 410390
+        },
+        {
+          "key" : "perfsonar-storrs.cen.ct.gov",
+          "doc_count" : 407713
+        },
+        {
+          "key" : "81.180.86.184",
+          "doc_count" : 407530
+        },
+        {
+          "key" : "perfsonar-msn.wiscnet.net",
+          "doc_count" : 406222
+        },
+        {
+          "key" : "psmp-lhc-owd-01-fra-de-v4.geant.net",
+          "doc_count" : 405478
+        },
+        {
+          "key" : "psmp-lhc-owd-01-ams-nl-v4.geant.net",
+          "doc_count" : 404855
+        },
+        {
+          "key" : "111.68.99.156",
+          "doc_count" : 400576
+        },
+        {
+          "key" : "perfsonar1.icepp.jp",
+          "doc_count" : 398137
+        },
+        {
+          "key" : "PERFSONAR01-EXTERNAL-RTR-3.MIT.EDU",
+          "doc_count" : 385254
+        },
+        {
+          "key" : "lhcone-newy-opt1.es.net",
+          "doc_count" : 379664
+        },
+        {
+          "key" : "lhcone-star-opt1.es.net",
+          "doc_count" : 378784
+        },
+        {
+          "key" : "psmp-lhc-owd-01-gen-ch-v4.geant.net",
+          "doc_count" : 378725
+        },
+        {
+          "key" : "192.41.236.31",
+          "doc_count" : 377232
+        },
+        {
+          "key" : "psmp-lhc-owd-01-lon-uk-v4.geant.net",
+          "doc_count" : 377222
+        },
+        {
+          "key" : "130.246.176.110",
+          "doc_count" : 370880
+        },
+        {
+          "key" : "192.12.15.26",
+          "doc_count" : 369245
+        },
+        {
+          "key" : "clpk-ps.maxgigapop.net",
+          "doc_count" : 367194
+        },
+        {
+          "key" : "193.62.193.137",
+          "doc_count" : 366818
+        },
+        {
+          "key" : "perfsonar.diamond.ac.uk",
+          "doc_count" : 366437
+        },
+        {
+          "key" : "mcln-ps.maxgigapop.net",
+          "doc_count" : 362001
+        },
+        {
+          "key" : "perfsonar1.ba.infn.it",
+          "doc_count" : 358503
+        },
+        {
+          "key" : "kv-core-ps1-lhc-v4.uran.net.ua",
+          "doc_count" : 355828
+        },
+        {
+          "key" : "psmp-lhc-owd-01-par-fr-v4.geant.net",
+          "doc_count" : 349979
+        },
+        {
+          "key" : "web100.pnw-gigapop.net",
+          "doc_count" : 349278
+        },
+        {
+          "key" : "134.158.20.192",
+          "doc_count" : 340097
+        },
+        {
+          "key" : "cavy.ccamu.u-3mrs.fr",
+          "doc_count" : 340096
+        },
+        {
+          "key" : "kv-core-ps1-v4.uran.net.ua",
+          "doc_count" : 338094
+        },
+        {
+          "key" : "anl-owamp.es.net",
+          "doc_count" : 335845
+        },
+        {
+          "key" : "perfsonar.oshean.org",
+          "doc_count" : 330994
+        },
+        {
+          "key" : "131.169.7.29",
+          "doc_count" : 330888
+        },
+        {
+          "key" : "159.93.229.151",
+          "doc_count" : 325657
+        },
+        {
+          "key" : "perf.nbrd.net.pennren.net",
+          "doc_count" : 323716
+        },
+        {
+          "key" : "159.93.229.150",
+          "doc_count" : 322178
+        },
+        {
+          "key" : "perfsonar3.cc.kek.jp",
+          "doc_count" : 321288
+        },
+        {
+          "key" : "chic-owamp.es.net",
+          "doc_count" : 317366
+        },
+        {
+          "key" : "hep-ps-lt-fw.pp.rl.ac.uk",
+          "doc_count" : 315175
+        },
+        {
+          "key" : "amst-owamp.es.net",
+          "doc_count" : 311981
+        },
+        {
+          "key" : "wash-owamp.es.net",
+          "doc_count" : 311895
+        },
+        {
+          "key" : "2a05:81c5:301:228::e597",
+          "doc_count" : 307822
+        },
+        {
+          "key" : "10.244.35.128",
+          "doc_count" : 307330
+        },
+        {
+          "key" : "2a05:81c5:301:228::e596",
+          "doc_count" : 305727
+        },
+        {
+          "key" : "perfsonar1.iitg.ac.in",
+          "doc_count" : 305049
+        },
+        {
+          "key" : "atrogr007.nipne.ro",
+          "doc_count" : 298144
+        },
+        {
+          "key" : "10.244.52.128",
+          "doc_count" : 296292
+        },
+        {
+          "key" : "psonar.arc.vt.edu",
+          "doc_count" : 295735
+        },
+        {
+          "key" : "2001:610:108:203a::31",
+          "doc_count" : 295491
+        },
+        {
+          "key" : "145.100.32.31",
+          "doc_count" : 295451
+        },
+        {
+          "key" : "srv.ll.indiana.gigapop.net",
+          "doc_count" : 287985
+        },
+        {
+          "key" : "perfsonar.illinois.net",
+          "doc_count" : 287398
+        },
+        {
+          "key" : "ps-svl-10g.cenic.net",
+          "doc_count" : 285567
+        },
+        {
+          "key" : "152.84.101.141",
+          "doc_count" : 281131
+        },
+        {
+          "key" : "10.244.79.11",
+          "doc_count" : 272472
+        },
+        {
+          "key" : "146.97.41.58",
+          "doc_count" : 270588
+        },
+        {
+          "key" : "tulsa-lt.ps.onenet.net",
+          "doc_count" : 266234
+        },
+        {
+          "key" : "psmp-gn-owd-01-vie-at-v4.geant.net",
+          "doc_count" : 265360
+        },
+        {
+          "key" : "perfsonar-test4.kek.jp",
+          "doc_count" : 261680
+        },
+        {
+          "key" : "ps-2.oit.umass.edu",
+          "doc_count" : 261399
+        },
+        {
+          "key" : "perfsonar06.tamu.edu",
+          "doc_count" : 260315
+        },
+        {
+          "key" : "ps-grand-lt.perfsonar.kanren.net",
+          "doc_count" : 251504
+        },
+        {
+          "key" : "psmall.roedu.net",
+          "doc_count" : 250762
+        },
+        {
+          "key" : "109.105.99.78",
+          "doc_count" : 249365
+        },
+        {
+          "key" : "perfsonar-lsu-frey-02.loni.org",
+          "doc_count" : 249135
+        },
+        {
+          "key" : "2001:67c:1bdc:100::133",
+          "doc_count" : 248580
+        },
+        {
+          "key" : "speedy.greatplains.net",
+          "doc_count" : 246465
+        },
+        {
+          "key" : "ps-small.dev.ja.net",
+          "doc_count" : 245738
+        },
+        {
+          "key" : "ps.tacc.utexas.edu",
+          "doc_count" : 235975
+        },
+        {
+          "key" : "56m-ps.sox.net",
+          "doc_count" : 234530
+        },
+        {
+          "key" : "10.244.74.126",
+          "doc_count" : 226389
+        },
+        {
+          "key" : "PERFSONAR01.CMSAF.MIT.EDU",
+          "doc_count" : 224610
+        },
+        {
+          "key" : "tul-ps.onenet.net",
+          "doc_count" : 224575
+        },
+        {
+          "key" : "10.244.115.4",
+          "doc_count" : 223989
+        },
+        {
+          "key" : "slac-owamp.es.net",
+          "doc_count" : 217805
+        },
+        {
+          "key" : "lcgs102.jinr.ru",
+          "doc_count" : 216834
+        },
+        {
+          "key" : "lhcone.test.wix.internet2.edu",
+          "doc_count" : 215662
+        },
+        {
+          "key" : "psmp-gn-owd-01-vie-at-v6.geant.net",
+          "doc_count" : 211468
+        },
+        {
+          "key" : "psmp-lhc-owd-01-lon-uk-v6.geant.net",
+          "doc_count" : 210574
+        },
+        {
+          "key" : "10.244.19.91",
+          "doc_count" : 210118
+        },
+        {
+          "key" : "psmp-lhc-owd-01-fra-de-v6.geant.net",
+          "doc_count" : 209676
+        },
+        {
+          "key" : "psmp-lhc-owd-01-ams-nl-v6.geant.net",
+          "doc_count" : 209585
+        },
+        {
+          "key" : "195.19.226.144",
+          "doc_count" : 207041
+        },
+        {
+          "key" : "srv.chic.indiana.gigapop.net",
+          "doc_count" : 205290
+        },
+        {
+          "key" : "kv-core-ps1-lhc-v6.uran.net.ua",
+          "doc_count" : 204526
+        },
+        {
+          "key" : "kv-core-ps1-v6.uran.net.ua",
+          "doc_count" : 203067
+        },
+        {
+          "key" : "psnr-farm10.slac.stanford.edu",
+          "doc_count" : 201937
+        },
+        {
+          "key" : "srv.ictc.indiana.gigapop.net",
+          "doc_count" : 201829
+        },
+        {
+          "key" : "noctuidae.cns.vt.edu",
+          "doc_count" : 201355
+        },
+        {
+          "key" : "gnvnoc-ps-1.net.flrnet.org",
+          "doc_count" : 201327
+        },
+        {
+          "key" : "psmp-lhc-owd-01-par-fr-v6.geant.net",
+          "doc_count" : 198173
+        },
+        {
+          "key" : "10.244.82.90",
+          "doc_count" : 194302
+        },
+        {
+          "key" : "193.109.172.188",
+          "doc_count" : 192701
+        },
+        {
+          "key" : "10.244.84.10",
+          "doc_count" : 192024
+        },
+        {
+          "key" : "185.111.60.100",
+          "doc_count" : 191838
+        },
+        {
+          "key" : "ps-border2-owamp-v4.lbl.gov",
+          "doc_count" : 191260
+        },
+        {
+          "key" : "fnal-owamp.es.net",
+          "doc_count" : 190917
+        },
+        {
+          "key" : "10.244.36.131",
+          "doc_count" : 189859
+        },
+        {
+          "key" : "test-pt1.es.net",
+          "doc_count" : 189709
+        },
+        {
+          "key" : "ps.daeg.kreonet.net",
+          "doc_count" : 188225
+        },
+        {
+          "key" : "perfsonar.ucar.edu",
+          "doc_count" : 187727
+        },
+        {
+          "key" : "137.222.74.17",
+          "doc_count" : 187722
+        },
+        {
+          "key" : "perfsonar.pregi.net",
+          "doc_count" : 187449
+        },
+        {
+          "key" : "owamp.chic.net.internet2.edu",
+          "doc_count" : 186985
+        },
+        {
+          "key" : "perfsonar.uni.net.th",
+          "doc_count" : 184588
+        },
+        {
+          "key" : "psmp-lhc-owd-01-gen-ch-v6.geant.net",
+          "doc_count" : 184031
+        },
+        {
+          "key" : "10.244.24.246",
+          "doc_count" : 183901
+        },
+        {
+          "key" : "10.244.15.41",
+          "doc_count" : 178609
+        },
+        {
+          "key" : "128.142.223.247",
+          "doc_count" : 171316
+        },
+        {
+          "key" : "perfs-wigner-lt",
+          "doc_count" : 170973
+        },
+        {
+          "key" : "10.244.67.200",
+          "doc_count" : 170435
+        },
+        {
+          "key" : "10.244.109.8",
+          "doc_count" : 170432
+        },
+        {
+          "key" : "109.105.124.86",
+          "doc_count" : 170391
+        },
+        {
+          "key" : "2001:630:58:1c20::82f6:2ff2",
+          "doc_count" : 169887
+        },
+        {
+          "key" : "10.244.121.33",
+          "doc_count" : 169580
+        },
+        {
+          "key" : "ps-lat.nersc.gov",
+          "doc_count" : 169453
+        },
+        {
+          "key" : "typhoon.pub.alcf.anl.gov",
+          "doc_count" : 169450
+        },
+        {
+          "key" : "10.244.119.3",
+          "doc_count" : 168579
+        },
+        {
+          "key" : "perfsonar.ornl.gov",
+          "doc_count" : 167770
+        },
+        {
+          "key" : "ps10g.mren.org",
+          "doc_count" : 167202
+        },
+        {
+          "key" : "ps-border1-owamp.lbl.gov",
+          "doc_count" : 166835
+        },
+        {
+          "key" : "10.244.122.6",
+          "doc_count" : 166347
+        },
+        {
+          "key" : "10.244.77.54",
+          "doc_count" : 166019
+        },
+        {
+          "key" : "ps-sr1-als-owamp.lbl.gov",
+          "doc_count" : 165199
+        },
+        {
+          "key" : "owamp-scz.pnl.gov",
+          "doc_count" : 164959
+        },
+        {
+          "key" : "speedtest2.pnl.gov",
+          "doc_count" : 164859
+        },
+        {
+          "key" : "prfsnr-xraya.xray.aps.anl.gov",
+          "doc_count" : 164698
+        },
+        {
+          "key" : "prfsnr-xrayb.xray.aps.anl.gov",
+          "doc_count" : 163925
+        },
+        {
+          "key" : "10.244.14.47",
+          "doc_count" : 163641
+        },
+        {
+          "key" : "perfsonar4.cc.kek.jp",
+          "doc_count" : 163415
+        },
+        {
+          "key" : "ps-ku-lt.perfsonar.kanren.net",
+          "doc_count" : 160231
+        },
+        {
+          "key" : "10.244.23.163",
+          "doc_count" : 157362
+        },
+        {
+          "key" : "perfsonar-bwctl.accre.vanderbilt.edu",
+          "doc_count" : 155081
+        },
+        {
+          "key" : "10.244.103.142",
+          "doc_count" : 154701
+        },
+        {
+          "key" : "10.244.116.13",
+          "doc_count" : 154258
+        },
+        {
+          "key" : "perfsonar-dashboard.oar.net",
+          "doc_count" : 152130
+        },
+        {
+          "key" : "perfsonar02.hephy.oeaw.ac.at",
+          "doc_count" : 151767
+        },
+        {
+          "key" : "192.170.227.160",
+          "doc_count" : 151088
+        },
+        {
+          "key" : "10.244.89.66",
+          "doc_count" : 149261
+        },
+        {
+          "key" : "10.244.46.51",
+          "doc_count" : 144892
+        },
+        {
+          "key" : "147.231.25.192",
+          "doc_count" : 144747
+        },
+        {
+          "key" : "10.244.83.61",
+          "doc_count" : 144120
+        },
+        {
+          "key" : "10.244.106.56",
+          "doc_count" : 142564
+        },
+        {
+          "key" : "sunn-owamp.es.net",
+          "doc_count" : 141921
+        },
+        {
+          "key" : "star-owamp.es.net",
+          "doc_count" : 141539
+        },
+        {
+          "key" : "bost-owamp.es.net",
+          "doc_count" : 140157
+        },
+        {
+          "key" : "10.244.27.14",
+          "doc_count" : 139888
+        },
+        {
+          "key" : "10.244.11.45",
+          "doc_count" : 139630
+        },
+        {
+          "key" : "10.244.89.48",
+          "doc_count" : 139185
+        },
+        {
+          "key" : "pnwg-owamp.es.net",
+          "doc_count" : 138694
+        },
+        {
+          "key" : "129.93.183.249",
+          "doc_count" : 137031
+        },
+        {
+          "key" : "ga-owamp.es.net",
+          "doc_count" : 136717
+        },
+        {
+          "key" : "perfsonarandover.oshean.org",
+          "doc_count" : 135784
+        },
+        {
+          "key" : "ps1.daej.kreonet2.net",
+          "doc_count" : 135055
+        },
+        {
+          "key" : "192.41.236.35",
+          "doc_count" : 129154
+        },
+        {
+          "key" : "193.58.172.56",
+          "doc_count" : 126467
+        },
+        {
+          "key" : "ps-wsu-lt.perfsonar.kanren.net",
+          "doc_count" : 126265
+        },
+        {
+          "key" : "net-perf.rcs.le.ac.uk",
+          "doc_count" : 123230
+        },
+        {
+          "key" : "10.244.80.151",
+          "doc_count" : 121847
+        },
+        {
+          "key" : "pfs1.renu.ac.ug",
+          "doc_count" : 121414
+        },
+        {
+          "key" : "10.244.121.44",
+          "doc_count" : 116009
+        },
+        {
+          "key" : "130.246.47.242",
+          "doc_count" : 111877
+        },
+        {
+          "key" : "ps-latency.clumeq.mcgill.ca",
+          "doc_count" : 109140
+        },
+        {
+          "key" : "127.0.0.1",
+          "doc_count" : 107991
+        },
+        {
+          "key" : "10.244.119.16",
+          "doc_count" : 105117
+        },
+        {
+          "key" : "10.244.33.53",
+          "doc_count" : 104045
+        },
+        {
+          "key" : "ps-ksu-lt.perfsonar.kanren.net",
+          "doc_count" : 103388
+        },
+        {
+          "key" : "perf.hong.transpac.org",
+          "doc_count" : 101745
+        },
+        {
+          "key" : "heplnx129.pp.rl.ac.uk",
+          "doc_count" : 98785
+        },
+        {
+          "key" : "ps-bryant-lt.perfsonar.kanren.net",
+          "doc_count" : 96020
+        },
+        {
+          "key" : "msu-ps01.osris.org",
+          "doc_count" : 95470
+        },
+        {
+          "key" : "psl01-gva-100g.cern.ch",
+          "doc_count" : 94705
+        },
+        {
+          "key" : "10.244.104.4",
+          "doc_count" : 94437
+        },
+        {
+          "key" : "10.244.1.58",
+          "doc_count" : 94246
+        },
+        {
+          "key" : "psonar2.lal.in2p3.fr",
+          "doc_count" : 93818
+        },
+        {
+          "key" : "hv32.nubes.rl.ac.uk",
+          "doc_count" : 93374
+        },
+        {
+          "key" : "10.244.63.31",
+          "doc_count" : 92737
+        },
+        {
+          "key" : "perfsonar2.nubes.rl.ac.uk",
+          "doc_count" : 91919
+        },
+        {
+          "key" : "perfsonar1.nubes.rl.ac.uk",
+          "doc_count" : 91906
+        },
+        {
+          "key" : "2406:f00:9::1b",
+          "doc_count" : 91124
+        },
+        {
+          "key" : "144.16.111.26",
+          "doc_count" : 91102
+        },
+        {
+          "key" : "10.244.32.201",
+          "doc_count" : 85393
+        },
+        {
+          "key" : "perfsonar.hpc.is",
+          "doc_count" : 83587
+        },
+        {
+          "key" : "ps-latency.hep.pnnl.gov",
+          "doc_count" : 82934
+        },
+        {
+          "key" : "siafu.cns.vt.edu",
+          "doc_count" : 82907
+        },
+        {
+          "key" : "pfs2.renu.ac.ug",
+          "doc_count" : 82299
+        },
+        {
+          "key" : "10.244.84.4",
+          "doc_count" : 81489
+        },
+        {
+          "key" : "10.244.108.30",
+          "doc_count" : 81478
+        },
+        {
+          "key" : "10.244.22.10",
+          "doc_count" : 81190
+        },
+        {
+          "key" : "psonartest2.fnal.gov",
+          "doc_count" : 80922
+        },
+        {
+          "key" : "10.244.11.59",
+          "doc_count" : 80615
+        },
+        {
+          "key" : "10.244.12.44",
+          "doc_count" : 79728
+        },
+        {
+          "key" : "10.244.106.63",
+          "doc_count" : 78318
+        },
+        {
+          "key" : "gridmsu2.sinp.msu.ru",
+          "doc_count" : 75841
+        },
+        {
+          "key" : "10.244.77.34",
+          "doc_count" : 73412
+        },
+        {
+          "key" : "psonar-cr2.rdf.ac.uk",
+          "doc_count" : 73170
+        },
+        {
+          "key" : "psum02.itep.ru",
+          "doc_count" : 72617
+        },
+        {
+          "key" : "perfsonar3.icepp.jp",
+          "doc_count" : 70143
+        },
+        {
+          "key" : "10.244.15.15",
+          "doc_count" : 69672
+        },
+        {
+          "key" : "perfsonar.pnpi.nw.ru",
+          "doc_count" : 68896
+        },
+        {
+          "key" : "10.244.55.47",
+          "doc_count" : 68201
+        },
+        {
+          "key" : "10.244.173.195",
+          "doc_count" : 67214
+        },
+        {
+          "key" : "10.244.33.9",
+          "doc_count" : 66921
+        },
+        {
+          "key" : "ps-lt.sciencedmz.usp.br",
+          "doc_count" : 66694
+        },
+        {
+          "key" : "10.244.122.141",
+          "doc_count" : 65194
+        },
+        {
+          "key" : "10.244.108.38",
+          "doc_count" : 65138
+        },
+        {
+          "key" : "antg-staging.es.net",
+          "doc_count" : 65028
+        },
+        {
+          "key" : "ps-deb.es.net",
+          "doc_count" : 64697
+        },
+        {
+          "key" : "10.244.83.247",
+          "doc_count" : 64470
+        },
+        {
+          "key" : "perfsonar-1g.ampath.net",
+          "doc_count" : 59208
+        },
+        {
+          "key" : "10.244.104.62",
+          "doc_count" : 59018
+        },
+        {
+          "key" : "213.131.25.39",
+          "doc_count" : 58735
+        },
+        {
+          "key" : "ps01-extrtr3.mit.edu",
+          "doc_count" : 57431
+        },
+        {
+          "key" : "10.244.80.139",
+          "doc_count" : 56623
+        },
+        {
+          "key" : "10.244.88.15",
+          "doc_count" : 56090
+        },
+        {
+          "key" : "10.244.67.250",
+          "doc_count" : 54592
+        },
+        {
+          "key" : "perfsonar-bw.sprace.org.br",
+          "doc_count" : 54564
+        },
+        {
+          "key" : "2605:9a00:10:400d:92e2:baff:fe12:f9e8",
+          "doc_count" : 54302
+        },
+        {
+          "key" : "10.244.116.49",
+          "doc_count" : 53989
+        },
+        {
+          "key" : "lcgps02.gridpp.rl.ac.uk",
+          "doc_count" : 53405
+        },
+        {
+          "key" : "10.244.108.0",
+          "doc_count" : 53306
+        },
+        {
+          "key" : "10.244.111.136",
+          "doc_count" : 52503
+        },
+        {
+          "key" : "ps2.ast.cam.ac.uk",
+          "doc_count" : 51065
+        },
+        {
+          "key" : "10.244.242.99",
+          "doc_count" : 50893
+        },
+        {
+          "key" : "2620:6a:0:8420::45",
+          "doc_count" : 50672
+        },
+        {
+          "key" : "10.244.179.77",
+          "doc_count" : 49342
+        },
+        {
+          "key" : "ps.test.wix.internet2.edu",
+          "doc_count" : 48241
+        },
+        {
+          "key" : "llrpsonar2.in2p3.fr",
+          "doc_count" : 48014
+        },
+        {
+          "key" : "10.244.187.214",
+          "doc_count" : 47892
+        },
+        {
+          "key" : "10.244.101.245",
+          "doc_count" : 47623
+        },
+        {
+          "key" : "10.244.88.24",
+          "doc_count" : 47463
+        },
+        {
+          "key" : "bost-pt1.es.net",
+          "doc_count" : 46091
+        },
+        {
+          "key" : "10.244.12.32",
+          "doc_count" : 45873
+        },
+        {
+          "key" : "ps2.truba.gov.tr",
+          "doc_count" : 45484
+        },
+        {
+          "key" : "10.244.27.143",
+          "doc_count" : 45447
+        },
+        {
+          "key" : "10.244.109.61",
+          "doc_count" : 45130
+        },
+        {
+          "key" : "perfsonar2.cc.uh.edu",
+          "doc_count" : 44712
+        },
+        {
+          "key" : "ps1-hardy-hstn.tx-learn.net",
+          "doc_count" : 44703
+        },
+        {
+          "key" : "ps1-akard-dlls.tx-learn.net",
+          "doc_count" : 44687
+        },
+        {
+          "key" : "perflat.ciemat.es",
+          "doc_count" : 44626
+        },
+        {
+          "key" : "10.244.13.167",
+          "doc_count" : 43556
+        },
+        {
+          "key" : "sampaps02.if.usp.br",
+          "doc_count" : 43443
+        },
+        {
+          "key" : "10.244.221.78",
+          "doc_count" : 42722
+        },
+        {
+          "key" : "pslat.physics.sjtu.edu.cn",
+          "doc_count" : 42333
+        },
+        {
+          "key" : "10.244.88.46",
+          "doc_count" : 42110
+        },
+        {
+          "key" : "10.244.33.13",
+          "doc_count" : 41708
+        },
+        {
+          "key" : "10.244.12.36",
+          "doc_count" : 41516
+        },
+        {
+          "key" : "10.244.11.140",
+          "doc_count" : 41343
+        },
+        {
+          "key" : "perfsonar-grid.uaic.ro",
+          "doc_count" : 41012
+        },
+        {
+          "key" : "131.225.2.47",
+          "doc_count" : 40808
+        },
+        {
+          "key" : "10.244.88.5",
+          "doc_count" : 40519
+        },
+        {
+          "key" : "perfsonar.ultralight.org",
+          "doc_count" : 40437
+        },
+        {
+          "key" : "10.244.187.200",
+          "doc_count" : 40398
+        },
+        {
+          "key" : "10.244.12.5",
+          "doc_count" : 39411
+        },
+        {
+          "key" : "10.244.63.7",
+          "doc_count" : 38663
+        },
+        {
+          "key" : "131.169.98.30",
+          "doc_count" : 37625
+        },
+        {
+          "key" : "perfsonar1.roma1.infn.it",
+          "doc_count" : 37430
+        },
+        {
+          "key" : "10.244.84.79",
+          "doc_count" : 37083
+        },
+        {
+          "key" : "10.244.220.37",
+          "doc_count" : 35278
+        },
+        {
+          "key" : "grid00.hepl.hiroshima-u.ac.jp",
+          "doc_count" : 34577
+        },
+        {
+          "key" : "ps.ncp.edu.pk",
+          "doc_count" : 32202
+        },
+        {
+          "key" : "PERFSONAR02.CMSAF.MIT.EDU",
+          "doc_count" : 31702
+        },
+        {
+          "key" : "10.244.88.14",
+          "doc_count" : 31013
+        },
+        {
+          "key" : "10.244.146.132",
+          "doc_count" : 30365
+        },
+        {
+          "key" : "10.244.252.203",
+          "doc_count" : 29621
+        },
+        {
+          "key" : "10.244.15.28",
+          "doc_count" : 29610
+        },
+        {
+          "key" : "ps01.hepl.hiroshima-u.ac.jp",
+          "doc_count" : 28868
+        },
+        {
+          "key" : "137.222.74.15",
+          "doc_count" : 28126
+        },
+        {
+          "key" : "ps-lt.sciencedmz.ifpe.edu.br",
+          "doc_count" : 26978
+        },
+        {
+          "key" : "10.244.116.2",
+          "doc_count" : 26944
+        },
+        {
+          "key" : "10.244.160.76",
+          "doc_count" : 26810
+        },
+        {
+          "key" : "10.244.220.12",
+          "doc_count" : 25526
+        },
+        {
+          "key" : "10.244.11.146",
+          "doc_count" : 25368
+        },
+        {
+          "key" : "10.244.32.235",
+          "doc_count" : 25142
+        },
+        {
+          "key" : "10.244.77.9",
+          "doc_count" : 24867
+        },
+        {
+          "key" : "10.244.12.24",
+          "doc_count" : 24543
+        },
+        {
+          "key" : "ps02.bfg.uni-freiburg.de",
+          "doc_count" : 24429
+        },
+        {
+          "key" : "10.244.242.76",
+          "doc_count" : 23854
+        },
+        {
+          "key" : "10.244.32.213",
+          "doc_count" : 23026
+        },
+        {
+          "key" : "10.244.160.100",
+          "doc_count" : 22949
+        },
+        {
+          "key" : "10.244.88.35",
+          "doc_count" : 22572
+        },
+        {
+          "key" : "10.244.33.38",
+          "doc_count" : 22158
+        },
+        {
+          "key" : "10.244.82.27",
+          "doc_count" : 21923
+        },
+        {
+          "key" : "ps01.bfg.uni-freiburg.de",
+          "doc_count" : 21731
+        },
+        {
+          "key" : "perfsonar-alice.sut.ac.th",
+          "doc_count" : 21659
+        },
+        {
+          "key" : "10.244.122.147",
+          "doc_count" : 21499
+        },
+        {
+          "key" : "10.244.217.27",
+          "doc_count" : 21130
+        },
+        {
+          "key" : "10.244.179.65",
+          "doc_count" : 20870
+        },
+        {
+          "key" : "10.244.80.158",
+          "doc_count" : 20581
+        },
+        {
+          "key" : "10.244.252.250",
+          "doc_count" : 20248
+        },
+        {
+          "key" : "10.244.80.144",
+          "doc_count" : 20069
+        },
+        {
+          "key" : "10.244.105.3",
+          "doc_count" : 19996
+        },
+        {
+          "key" : "10.244.27.180",
+          "doc_count" : 19691
+        },
+        {
+          "key" : "10.244.179.82",
+          "doc_count" : 19613
+        },
+        {
+          "key" : "10.244.217.48",
+          "doc_count" : 19585
+        },
+        {
+          "key" : "10.244.55.18",
+          "doc_count" : 19556
+        },
+        {
+          "key" : "10.244.27.134",
+          "doc_count" : 19048
+        },
+        {
+          "key" : "10.244.221.91",
+          "doc_count" : 19006
+        },
+        {
+          "key" : "10.244.12.17",
+          "doc_count" : 18262
+        },
+        {
+          "key" : "10.244.19.14",
+          "doc_count" : 18106
+        },
+        {
+          "key" : "10.244.111.142",
+          "doc_count" : 18054
+        },
+        {
+          "key" : "p07383215q66997.cern.ch",
+          "doc_count" : 17297
+        },
+        {
+          "key" : "10.244.13.143",
+          "doc_count" : 17094
+        },
+        {
+          "key" : "10.244.104.37",
+          "doc_count" : 16864
+        },
+        {
+          "key" : "10.244.122.194",
+          "doc_count" : 16812
+        },
+        {
+          "key" : "psbud01.kfki.hu",
+          "doc_count" : 16548
+        },
+        {
+          "key" : "10.244.121.13",
+          "doc_count" : 16288
+        },
+        {
+          "key" : "10.244.15.44",
+          "doc_count" : 16146
+        },
+        {
+          "key" : "psonar6.fnal.gov",
+          "doc_count" : 15980
+        },
+        {
+          "key" : "10.244.67.219",
+          "doc_count" : 15241
+        },
+        {
+          "key" : "ps02.cat.cbpf.br",
+          "doc_count" : 14935
+        },
+        {
+          "key" : "10.244.115.51",
+          "doc_count" : 14801
+        },
+        {
+          "key" : "10.244.83.5",
+          "doc_count" : 14611
+        },
+        {
+          "key" : "10.244.103.51",
+          "doc_count" : 14318
+        },
+        {
+          "key" : "10.244.62.192",
+          "doc_count" : 14091
+        },
+        {
+          "key" : "ps2.lhcopn-ps.sara.nl",
+          "doc_count" : 14053
+        },
+        {
+          "key" : "10.244.80.152",
+          "doc_count" : 13857
+        },
+        {
+          "key" : "10.244.104.54",
+          "doc_count" : 13778
+        },
+        {
+          "key" : "ps-lax-10g.cenic.net",
+          "doc_count" : 13749
+        },
+        {
+          "key" : "10.244.180.218",
+          "doc_count" : 13283
+        },
+        {
+          "key" : "perfsonar1.pi.infn.it",
+          "doc_count" : 13025
+        },
+        {
+          "key" : "10.244.121.57",
+          "doc_count" : 12669
+        },
+        {
+          "key" : "10.244.252.209",
+          "doc_count" : 12614
+        },
+        {
+          "key" : "10.244.13.180",
+          "doc_count" : 12236
+        },
+        {
+          "key" : "10.244.55.26",
+          "doc_count" : 11997
+        },
+        {
+          "key" : "10.244.14.61",
+          "doc_count" : 11928
+        },
+        {
+          "key" : "10.244.33.52",
+          "doc_count" : 11872
+        },
+        {
+          "key" : "10.244.55.1",
+          "doc_count" : 11863
+        },
+        {
+          "key" : "10.244.12.55",
+          "doc_count" : 11652
+        },
+        {
+          "key" : "ps-latency.sfu.westgrid.ca",
+          "doc_count" : 11600
+        },
+        {
+          "key" : "10.244.62.210",
+          "doc_count" : 11587
+        },
+        {
+          "key" : "10.244.84.139",
+          "doc_count" : 11511
+        },
+        {
+          "key" : "10.244.115.36",
+          "doc_count" : 10872
+        },
+        {
+          "key" : "10.244.18.12",
+          "doc_count" : 10538
+        },
+        {
+          "key" : "10.244.10.22",
+          "doc_count" : 10357
+        },
+        {
+          "key" : "10.244.116.110",
+          "doc_count" : 10331
+        },
+        {
+          "key" : "10.244.144.94",
+          "doc_count" : 10113
+        },
+        {
+          "key" : "144.206.236.189",
+          "doc_count" : 9983
+        },
+        {
+          "key" : "134.158.123.183",
+          "doc_count" : 9980
+        },
+        {
+          "key" : "144.206.237.142",
+          "doc_count" : 9979
+        },
+        {
+          "key" : "10.244.1.0",
+          "doc_count" : 9972
+        },
+        {
+          "key" : "10.244.122.24",
+          "doc_count" : 9810
+        },
+        {
+          "key" : "10.244.242.110",
+          "doc_count" : 9464
+        },
+        {
+          "key" : "10.244.84.150",
+          "doc_count" : 9443
+        },
+        {
+          "key" : "192.5.207.251",
+          "doc_count" : 9320
+        },
+        {
+          "key" : "10.244.26.40",
+          "doc_count" : 9256
+        },
+        {
+          "key" : "10.244.11.139",
+          "doc_count" : 9220
+        },
+        {
+          "key" : "10.244.160.123",
+          "doc_count" : 9129
+        },
+        {
+          "key" : "10.244.24.7",
+          "doc_count" : 9055
+        },
+        {
+          "key" : "10.244.209.162",
+          "doc_count" : 8917
+        },
+        {
+          "key" : "10.244.19.47",
+          "doc_count" : 8804
+        },
+        {
+          "key" : "10.244.32.220",
+          "doc_count" : 8641
+        },
+        {
+          "key" : "10.244.180.193",
+          "doc_count" : 8582
+        },
+        {
+          "key" : "10.244.19.61",
+          "doc_count" : 8542
+        },
+        {
+          "key" : "10.244.116.68",
+          "doc_count" : 8514
+        },
+        {
+          "key" : "10.244.80.159",
+          "doc_count" : 8476
+        },
+        {
+          "key" : "10.244.173.228",
+          "doc_count" : 8337
+        },
+        {
+          "key" : "10.244.252.199",
+          "doc_count" : 8274
+        },
+        {
+          "key" : "10.244.12.57",
+          "doc_count" : 8162
+        },
+        {
+          "key" : "10.244.24.28",
+          "doc_count" : 8131
+        },
+        {
+          "key" : "10.244.101.192",
+          "doc_count" : 8055
+        },
+        {
+          "key" : "10.244.32.211",
+          "doc_count" : 8043
+        },
+        {
+          "key" : "10.244.89.19",
+          "doc_count" : 7895
+        },
+        {
+          "key" : "10.244.108.3",
+          "doc_count" : 7871
+        },
+        {
+          "key" : "10.244.52.49",
+          "doc_count" : 7776
+        },
+        {
+          "key" : "10.244.116.66",
+          "doc_count" : 7729
+        },
+        {
+          "key" : "10.244.84.182",
+          "doc_count" : 7665
+        },
+        {
+          "key" : "10.244.33.25",
+          "doc_count" : 7575
+        },
+        {
+          "key" : "10.244.77.58",
+          "doc_count" : 7561
+        },
+        {
+          "key" : "10.244.173.254",
+          "doc_count" : 7312
+        },
+        {
+          "key" : "10.244.209.132",
+          "doc_count" : 7288
+        },
+        {
+          "key" : "10.244.122.46",
+          "doc_count" : 7270
+        },
+        {
+          "key" : "10.244.22.5",
+          "doc_count" : 7234
+        },
+        {
+          "key" : "10.244.77.41",
+          "doc_count" : 7171
+        },
+        {
+          "key" : "psb01.pic.es",
+          "doc_count" : 6983
+        },
+        {
+          "key" : "10.244.209.150",
+          "doc_count" : 6954
+        },
+        {
+          "key" : "10.244.111.166",
+          "doc_count" : 6862
+        },
+        {
+          "key" : "10.244.220.7",
+          "doc_count" : 6784
+        },
+        {
+          "key" : "ps-lt.sdmz.rnp.br",
+          "doc_count" : 6772
+        },
+        {
+          "key" : "10.244.14.9",
+          "doc_count" : 6541
+        },
+        {
+          "key" : "perfsonar1.usd.edu",
+          "doc_count" : 6436
+        },
+        {
+          "key" : "10.244.19.39",
+          "doc_count" : 6142
+        },
+        {
+          "key" : "10.244.12.60",
+          "doc_count" : 6028
+        },
+        {
+          "key" : "ps-bryant-bw.perfsonar.kanren.net",
+          "doc_count" : 6005
+        },
+        {
+          "key" : "psifca01.ifca.es",
+          "doc_count" : 5886
+        },
+        {
+          "key" : "10.244.221.71",
+          "doc_count" : 5846
+        },
+        {
+          "key" : "10.244.148.195",
+          "doc_count" : 5761
+        },
+        {
+          "key" : "10.244.121.47",
+          "doc_count" : 5534
+        },
+        {
+          "key" : "llnl-owamp.es.net",
+          "doc_count" : 5421
+        },
+        {
+          "key" : "10.244.18.45",
+          "doc_count" : 5221
+        },
+        {
+          "key" : "10.244.144.71",
+          "doc_count" : 5151
+        },
+        {
+          "key" : "10.244.108.26",
+          "doc_count" : 5150
+        },
+        {
+          "key" : "10.244.79.52",
+          "doc_count" : 5011
+        },
+        {
+          "key" : "10.244.35.43",
+          "doc_count" : 4705
+        },
+        {
+          "key" : "10.244.187.236",
+          "doc_count" : 4637
+        },
+        {
+          "key" : "10.244.10.45",
+          "doc_count" : 4544
+        },
+        {
+          "key" : "psonar6",
+          "doc_count" : 4520
+        },
+        {
+          "key" : "psonar4",
+          "doc_count" : 4464
+        },
+        {
+          "key" : "10.244.187.199",
+          "doc_count" : 4424
+        },
+        {
+          "key" : "10.244.11.62",
+          "doc_count" : 4413
+        },
+        {
+          "key" : "10.244.122.38",
+          "doc_count" : 4411
+        },
+        {
+          "key" : "perfsonar-100g.cscs.ch",
+          "doc_count" : 4343
+        },
+        {
+          "key" : "10.244.187.206",
+          "doc_count" : 4323
+        },
+        {
+          "key" : "10.244.221.206",
+          "doc_count" : 4200
+        },
+        {
+          "key" : "10.244.187.247",
+          "doc_count" : 4158
+        },
+        {
+          "key" : "10.244.32.222",
+          "doc_count" : 4106
+        },
+        {
+          "key" : "10.244.221.73",
+          "doc_count" : 4074
+        },
+        {
+          "key" : "10.244.84.76",
+          "doc_count" : 4019
+        },
+        {
+          "key" : "10.244.144.102",
+          "doc_count" : 3958
+        },
+        {
+          "key" : "10.244.88.31",
+          "doc_count" : 3752
+        },
+        {
+          "key" : "10.244.88.49",
+          "doc_count" : 3689
+        },
+        {
+          "key" : "10.244.24.58",
+          "doc_count" : 3422
+        },
+        {
+          "key" : "10.244.103.18",
+          "doc_count" : 3414
+        },
+        {
+          "key" : "10.244.47.137",
+          "doc_count" : 3361
+        },
+        {
+          "key" : "10.244.112.31",
+          "doc_count" : 2999
+        },
+        {
+          "key" : "10.244.79.162",
+          "doc_count" : 2968
+        },
+        {
+          "key" : "10.244.179.72",
+          "doc_count" : 2958
+        },
+        {
+          "key" : "10.244.1.36",
+          "doc_count" : 2931
+        },
+        {
+          "key" : "10.244.32.24",
+          "doc_count" : 2926
+        },
+        {
+          "key" : "denv-owamp.es.net",
+          "doc_count" : 2866
+        },
+        {
+          "key" : "10.244.179.81",
+          "doc_count" : 2812
+        },
+        {
+          "key" : "10.244.80.182",
+          "doc_count" : 2796
+        },
+        {
+          "key" : "10.244.13.191",
+          "doc_count" : 2764
+        }
+      ]
+    }
+  }
+}

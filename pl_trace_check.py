@@ -1,3 +1,6 @@
+# About this file:
+# This file is used to combine source data of packet loss and trace; intended to format the data into a specific JSON format to fit into d3 visualization.
+
 from datetime import datetime, timedelta
 import psycopg2
 from psycopg2 import IntegrityError

@@ -1,0 +1,856 @@
+{
+  "took": 20,
+  "timed_out": false,
+  "_shards": {
+    "total": 95,
+    "successful": 95,
+    "skipped": 92,
+    "failed": 0
+  },
+  "hits": {
+    "total": 3,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "ps_meta-2019.8",
+        "_type": "doc",
+        "_id": "IwRLsWwBMWltPFRMt25j",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "is_vm": 0,
+          "tcp_info": {
+            "tcp_cc_algorithm": "htcp",
+            "tcp_max_buffer_send": 268435456,
+            "tcp_max_buffer_recv": 268435456,
+            "tcp_autotune_max_buffer_recv": 134217728,
+            "tcp_max_backlog": 1000,
+            "tcp_autotune_max_buffer_send": 134217728
+          },
+          "host_memory": 46,
+          "sys_vendor": "Dell Inc.",
+          "services": {
+            "esmond": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [
+                "https://perfsonar-ps-03.desy.de/esmond/perfsonar/archive/",
+                "https://::1/esmond/perfsonar/archive/",
+                "https://localhost/esmond/perfsonar/archive/"
+              ],
+              "is_running": "yes"
+            },
+            "lsregistration": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [],
+              "is_running": "yes"
+            },
+            "owamp": {
+              "addresses": [],
+              "enabled": 1,
+              "is_running": "yes",
+              "version": "4.2.0-1.el7",
+              "daemon_port": "861",
+              "testing_ports": {
+                "test": {
+                  "min_port": "8760",
+                  "max_port": "9960"
+                }
+              }
+            },
+            "pscheduler": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [
+                "https://perfsonar-ps-03.desy.de/pscheduler",
+                "https://::1/pscheduler",
+                "https://localhost/pscheduler"
+              ],
+              "is_running": "yes"
+            },
+            "psconfig": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [],
+              "is_running": "yes"
+            },
+            "twamp": {
+              "addresses": [],
+              "enabled": 1,
+              "is_running": "yes",
+              "version": "4.2.0-1.el7",
+              "daemon_port": "862",
+              "testing_ports": {
+                "test": {
+                  "min_port": "18760",
+                  "max_port": "19960"
+                }
+              }
+            }
+          },
+          "cpu_speed": 2200,
+          "globally_registered": 1,
+          "cpu_cores": 20,
+          "toolkit_name": "HOST",
+          "timestamp": 1566342614804,
+          "config": {
+            "site_name": "Deutsches Elektronen-Synchrotron DESY",
+            "role": "science-dmz",
+            "access_policy": "research-education"
+          },
+          "product_name": "PowerEdge R440",
+          "templates": [
+            "https://psconfig.opensciencegrid.org/pub/auto/perfsonar-ps-03.desy.de"
+          ],
+          "administrator": {
+            "email": "noc@desy.de",
+            "name": "DESY NOC"
+          },
+          "ntp": {
+            "dispersion": 0.000318,
+            "synchronized": 1,
+            "when": "150",
+            "polling_interval": 1024,
+            "reach": 377,
+            "offset": -0.000633,
+            "delay": 0.000495,
+            "host": "ntp.desy.de",
+            "stratum": 1,
+            "type": "u",
+            "refid": ".GPS."
+          },
+          "ls_client_uuid": "BA2A94A2-4875-11E8-B632-5E1573061DA0",
+          "toolkit_version": "4.2.0-1.el7",
+          "external_address": {
+            "ipv6_address": "2001:638:700:1007::1:1d",
+            "iface": "p2p1",
+            "dns_name": "perfsonar-ps-03.desy.de",
+            "mtu": 1500,
+            "ipv4_address": "131.169.7.29",
+            "address": "131.169.7.29",
+            "speed": 10000000000,
+            "counters": {
+              "txfifo": 0,
+              "txcolls": 0,
+              "rxdrop": 0,
+              "txdrop": 0,
+              "txcompr": 0,
+              "txbyt": 397974025472,
+              "rxfifo": 0,
+              "rxframe": 458,
+              "rxpcks": 1149337347,
+              "rxbyt": 448125394778,
+              "ttbyt": 846099420250,
+              "txerrs": 0,
+              "txcarr": 0,
+              "rxerrs": 0,
+              "ttpcks": 1607545502,
+              "rxcompr": 0,
+              "rxmulti": 2936,
+              "txpcks": 458208155
+            }
+          },
+          "communities": [
+            "Atlas",
+            "BELLE",
+            "Belle2",
+            "CMS",
+            "LHC",
+            "LHCONE",
+            "LHCTier2",
+            "LHCone"
+          ],
+          "cpus": 1,
+          "distribution": "CentOS Linux 7.6.1810 (Core) ",
+          "host": "perfsonar-ps-03.desy.de",
+          "geolocation": "53.577355,9.877352"
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-20T23:10:14.804Z"
+          ]
+        },
+        "sort": [
+          1566342614804
+        ],
+        "$$_flattened": {
+          "is_vm": 0,
+          "tcp_info.tcp_cc_algorithm": "htcp",
+          "tcp_info.tcp_max_buffer_send": 268435456,
+          "tcp_info.tcp_max_buffer_recv": 268435456,
+          "tcp_info.tcp_autotune_max_buffer_recv": 134217728,
+          "tcp_info.tcp_max_backlog": 1000,
+          "tcp_info.tcp_autotune_max_buffer_send": 134217728,
+          "host_memory": 46,
+          "sys_vendor": "Dell Inc.",
+          "services.esmond.version": "4.2.0-1.el7",
+          "services.esmond.enabled": 1,
+          "services.esmond.addresses": [
+            "https://perfsonar-ps-03.desy.de/esmond/perfsonar/archive/",
+            "https://::1/esmond/perfsonar/archive/",
+            "https://localhost/esmond/perfsonar/archive/"
+          ],
+          "services.esmond.is_running": "yes",
+          "services.lsregistration.version": "4.2.0-1.el7",
+          "services.lsregistration.enabled": 1,
+          "services.lsregistration.addresses": [],
+          "services.lsregistration.is_running": "yes",
+          "services.owamp.addresses": [],
+          "services.owamp.enabled": 1,
+          "services.owamp.is_running": "yes",
+          "services.owamp.version": "4.2.0-1.el7",
+          "services.owamp.daemon_port": "861",
+          "services.owamp.testing_ports.test.min_port": "8760",
+          "services.owamp.testing_ports.test.max_port": "9960",
+          "services.pscheduler.version": "4.2.0-1.el7",
+          "services.pscheduler.enabled": 1,
+          "services.pscheduler.addresses": [
+            "https://perfsonar-ps-03.desy.de/pscheduler",
+            "https://::1/pscheduler",
+            "https://localhost/pscheduler"
+          ],
+          "services.pscheduler.is_running": "yes",
+          "services.psconfig.version": "4.2.0-1.el7",
+          "services.psconfig.enabled": 1,
+          "services.psconfig.addresses": [],
+          "services.psconfig.is_running": "yes",
+          "services.twamp.addresses": [],
+          "services.twamp.enabled": 1,
+          "services.twamp.is_running": "yes",
+          "services.twamp.version": "4.2.0-1.el7",
+          "services.twamp.daemon_port": "862",
+          "services.twamp.testing_ports.test.min_port": "18760",
+          "services.twamp.testing_ports.test.max_port": "19960",
+          "cpu_speed": 2200,
+          "globally_registered": 1,
+          "cpu_cores": 20,
+          "toolkit_name": "HOST",
+          "timestamp": "2019-08-20T23:10:14.804Z",
+          "config.site_name": "Deutsches Elektronen-Synchrotron DESY",
+          "config.role": "science-dmz",
+          "config.access_policy": "research-education",
+          "product_name": "PowerEdge R440",
+          "templates": [
+            "https://psconfig.opensciencegrid.org/pub/auto/perfsonar-ps-03.desy.de"
+          ],
+          "administrator.email": "noc@desy.de",
+          "administrator.name": "DESY NOC",
+          "ntp.dispersion": 0.000318,
+          "ntp.synchronized": 1,
+          "ntp.when": "150",
+          "ntp.polling_interval": 1024,
+          "ntp.reach": 377,
+          "ntp.offset": -0.000633,
+          "ntp.delay": 0.000495,
+          "ntp.host": "ntp.desy.de",
+          "ntp.stratum": 1,
+          "ntp.type": "u",
+          "ntp.refid": ".GPS.",
+          "ls_client_uuid": "BA2A94A2-4875-11E8-B632-5E1573061DA0",
+          "toolkit_version": "4.2.0-1.el7",
+          "external_address.ipv6_address": "2001:638:700:1007::1:1d",
+          "external_address.iface": "p2p1",
+          "external_address.dns_name": "perfsonar-ps-03.desy.de",
+          "external_address.mtu": 1500,
+          "external_address.ipv4_address": "131.169.7.29",
+          "external_address.address": "131.169.7.29",
+          "external_address.speed": 10000000000,
+          "external_address.counters.txfifo": 0,
+          "external_address.counters.txcolls": 0,
+          "external_address.counters.rxdrop": 0,
+          "external_address.counters.txdrop": 0,
+          "external_address.counters.txcompr": 0,
+          "external_address.counters.txbyt": 397974025472,
+          "external_address.counters.rxfifo": 0,
+          "external_address.counters.rxframe": 458,
+          "external_address.counters.rxpcks": 1149337347,
+          "external_address.counters.rxbyt": 448125394778,
+          "external_address.counters.ttbyt": 846099420250,
+          "external_address.counters.txerrs": 0,
+          "external_address.counters.txcarr": 0,
+          "external_address.counters.rxerrs": 0,
+          "external_address.counters.ttpcks": 1607545502,
+          "external_address.counters.rxcompr": 0,
+          "external_address.counters.rxmulti": 2936,
+          "external_address.counters.txpcks": 458208155,
+          "communities": [
+            "Atlas",
+            "BELLE",
+            "Belle2",
+            "CMS",
+            "LHC",
+            "LHCONE",
+            "LHCTier2",
+            "LHCone"
+          ],
+          "cpus": 1,
+          "distribution": "CentOS Linux 7.6.1810 (Core) ",
+          "host": "perfsonar-ps-03.desy.de",
+          "geolocation": "53.577355,9.877352",
+          "_id": "IwRLsWwBMWltPFRMt25j",
+          "_type": "doc",
+          "_index": "ps_meta-2019.8"
+        }
+      },
+      {
+        "_index": "ps_meta-2019.8",
+        "_type": "doc",
+        "_id": "0wJCsWwBMWltPFRMn7Q4",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "is_vm": 1,
+          "tcp_info": {
+            "tcp_cc_algorithm": "htcp",
+            "tcp_max_buffer_send": 67108864,
+            "tcp_max_buffer_recv": 67108864,
+            "tcp_autotune_max_buffer_recv": 33554432,
+            "tcp_max_backlog": 1000,
+            "tcp_autotune_max_buffer_send": 33554432
+          },
+          "host_memory": 8,
+          "sys_vendor": "QEMU",
+          "services": {
+            "esmond": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [
+                "https://perfsonar-grid.uaic.ro/esmond/perfsonar/archive/",
+                "https://::1/esmond/perfsonar/archive/",
+                "https://localhost/esmond/perfsonar/archive/"
+              ],
+              "is_running": "yes"
+            },
+            "lsregistration": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [],
+              "is_running": "yes"
+            },
+            "owamp": {
+              "addresses": [],
+              "enabled": 1,
+              "is_running": "yes",
+              "version": "4.2.0-1.el7",
+              "daemon_port": "861",
+              "testing_ports": {
+                "test": {
+                  "min_port": "8760",
+                  "max_port": "9960"
+                }
+              }
+            },
+            "pscheduler": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [
+                "https://perfsonar-grid.uaic.ro/pscheduler",
+                "https://::1/pscheduler",
+                "https://localhost/pscheduler"
+              ],
+              "is_running": "yes"
+            },
+            "psconfig": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [],
+              "is_running": "yes"
+            },
+            "twamp": {
+              "addresses": [],
+              "enabled": 1,
+              "is_running": "yes",
+              "version": "4.2.0-1.el7",
+              "daemon_port": "862",
+              "testing_ports": {
+                "test": {
+                  "min_port": "18760",
+                  "max_port": "19960"
+                }
+              }
+            }
+          },
+          "cpu_speed": 2526.996,
+          "globally_registered": 1,
+          "cpu_cores": 4,
+          "toolkit_name": "HOST",
+          "timestamp": 1566342018365,
+          "config": {
+            "site_name": "Alexandru Ioan Cuza University of Iasi",
+            "role": "site-border",
+            "access_policy": "public"
+          },
+          "product_name": "Standard PC (Q35 + ICH9, 2009)",
+          "templates": [
+            "http://psconfig.opensciencegrid.org/pub/auto/perfsonar-grid.uaic.ro"
+          ],
+          "administrator": {
+            "email": "ciprian.pinzaru@uaic.ro",
+            "name": "Ciprian"
+          },
+          "ntp": {
+            "dispersion": 0.000174,
+            "synchronized": 1,
+            "when": "505",
+            "polling_interval": 1024,
+            "reach": 377,
+            "offset": -0.000354,
+            "delay": 0.044008,
+            "host": "ntp2.inrim.it",
+            "stratum": 1,
+            "type": "u",
+            "refid": ".CTD."
+          },
+          "ls_client_uuid": "CB43DE32-7AA7-11E9-8158-956E986A79F6",
+          "toolkit_version": "4.2.0-1.el7",
+          "external_address": {
+            "ipv6_address": "2001:b30:1002:612::1119",
+            "iface": "eth0",
+            "dns_name": "perfsonar-grid.uaic.ro",
+            "mtu": 9000,
+            "ipv4_address": "85.122.31.119",
+            "address": "85.122.31.119",
+            "counters": {
+              "txfifo": 0,
+              "txcolls": 0,
+              "rxdrop": 13325,
+              "txdrop": 0,
+              "txcompr": 0,
+              "txbyt": 12331286329687,
+              "rxfifo": 0,
+              "rxframe": 0,
+              "rxpcks": 4029075065,
+              "rxbyt": 23807586353687,
+              "ttbyt": 36138872683374,
+              "txerrs": 0,
+              "txcarr": 0,
+              "rxerrs": 0,
+              "ttpcks": 13639809010,
+              "rxcompr": 0,
+              "rxmulti": 0,
+              "txpcks": 9610733945
+            }
+          },
+          "communities": [
+            "ATLAS",
+            "WLCG"
+          ],
+          "cpus": 4,
+          "distribution": "CentOS Linux 7.6.1810 (Core) ",
+          "host": "perfsonar-grid.uaic.ro",
+          "geolocation": "47.1667,27.6000"
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-20T23:00:18.365Z"
+          ]
+        },
+        "sort": [
+          1566342018365
+        ],
+        "$$_flattened": {
+          "is_vm": 1,
+          "tcp_info.tcp_cc_algorithm": "htcp",
+          "tcp_info.tcp_max_buffer_send": 67108864,
+          "tcp_info.tcp_max_buffer_recv": 67108864,
+          "tcp_info.tcp_autotune_max_buffer_recv": 33554432,
+          "tcp_info.tcp_max_backlog": 1000,
+          "tcp_info.tcp_autotune_max_buffer_send": 33554432,
+          "host_memory": 8,
+          "sys_vendor": "QEMU",
+          "services.esmond.version": "4.2.0-1.el7",
+          "services.esmond.enabled": 1,
+          "services.esmond.addresses": [
+            "https://perfsonar-grid.uaic.ro/esmond/perfsonar/archive/",
+            "https://::1/esmond/perfsonar/archive/",
+            "https://localhost/esmond/perfsonar/archive/"
+          ],
+          "services.esmond.is_running": "yes",
+          "services.lsregistration.version": "4.2.0-1.el7",
+          "services.lsregistration.enabled": 1,
+          "services.lsregistration.addresses": [],
+          "services.lsregistration.is_running": "yes",
+          "services.owamp.addresses": [],
+          "services.owamp.enabled": 1,
+          "services.owamp.is_running": "yes",
+          "services.owamp.version": "4.2.0-1.el7",
+          "services.owamp.daemon_port": "861",
+          "services.owamp.testing_ports.test.min_port": "8760",
+          "services.owamp.testing_ports.test.max_port": "9960",
+          "services.pscheduler.version": "4.2.0-1.el7",
+          "services.pscheduler.enabled": 1,
+          "services.pscheduler.addresses": [
+            "https://perfsonar-grid.uaic.ro/pscheduler",
+            "https://::1/pscheduler",
+            "https://localhost/pscheduler"
+          ],
+          "services.pscheduler.is_running": "yes",
+          "services.psconfig.version": "4.2.0-1.el7",
+          "services.psconfig.enabled": 1,
+          "services.psconfig.addresses": [],
+          "services.psconfig.is_running": "yes",
+          "services.twamp.addresses": [],
+          "services.twamp.enabled": 1,
+          "services.twamp.is_running": "yes",
+          "services.twamp.version": "4.2.0-1.el7",
+          "services.twamp.daemon_port": "862",
+          "services.twamp.testing_ports.test.min_port": "18760",
+          "services.twamp.testing_ports.test.max_port": "19960",
+          "cpu_speed": 2526.996,
+          "globally_registered": 1,
+          "cpu_cores": 4,
+          "toolkit_name": "HOST",
+          "timestamp": "2019-08-20T23:00:18.365Z",
+          "config.site_name": "Alexandru Ioan Cuza University of Iasi",
+          "config.role": "site-border",
+          "config.access_policy": "public",
+          "product_name": "Standard PC (Q35 + ICH9, 2009)",
+          "templates": [
+            "http://psconfig.opensciencegrid.org/pub/auto/perfsonar-grid.uaic.ro"
+          ],
+          "administrator.email": "ciprian.pinzaru@uaic.ro",
+          "administrator.name": "Ciprian",
+          "ntp.dispersion": 0.000174,
+          "ntp.synchronized": 1,
+          "ntp.when": "505",
+          "ntp.polling_interval": 1024,
+          "ntp.reach": 377,
+          "ntp.offset": -0.000354,
+          "ntp.delay": 0.044008,
+          "ntp.host": "ntp2.inrim.it",
+          "ntp.stratum": 1,
+          "ntp.type": "u",
+          "ntp.refid": ".CTD.",
+          "ls_client_uuid": "CB43DE32-7AA7-11E9-8158-956E986A79F6",
+          "toolkit_version": "4.2.0-1.el7",
+          "external_address.ipv6_address": "2001:b30:1002:612::1119",
+          "external_address.iface": "eth0",
+          "external_address.dns_name": "perfsonar-grid.uaic.ro",
+          "external_address.mtu": 9000,
+          "external_address.ipv4_address": "85.122.31.119",
+          "external_address.address": "85.122.31.119",
+          "external_address.counters.txfifo": 0,
+          "external_address.counters.txcolls": 0,
+          "external_address.counters.rxdrop": 13325,
+          "external_address.counters.txdrop": 0,
+          "external_address.counters.txcompr": 0,
+          "external_address.counters.txbyt": 12331286329687,
+          "external_address.counters.rxfifo": 0,
+          "external_address.counters.rxframe": 0,
+          "external_address.counters.rxpcks": 4029075065,
+          "external_address.counters.rxbyt": 23807586353687,
+          "external_address.counters.ttbyt": 36138872683374,
+          "external_address.counters.txerrs": 0,
+          "external_address.counters.txcarr": 0,
+          "external_address.counters.rxerrs": 0,
+          "external_address.counters.ttpcks": 13639809010,
+          "external_address.counters.rxcompr": 0,
+          "external_address.counters.rxmulti": 0,
+          "external_address.counters.txpcks": 9610733945,
+          "communities": [
+            "ATLAS",
+            "WLCG"
+          ],
+          "cpus": 4,
+          "distribution": "CentOS Linux 7.6.1810 (Core) ",
+          "host": "perfsonar-grid.uaic.ro",
+          "geolocation": "47.1667,27.6000",
+          "_id": "0wJCsWwBMWltPFRMn7Q4",
+          "_type": "doc",
+          "_index": "ps_meta-2019.8"
+        }
+      },
+      {
+        "_index": "ps_meta-2019.8",
+        "_type": "doc",
+        "_id": "ZQE9sWwBMWltPFRM-faz",
+        "_version": 1,
+        "_score": null,
+        "_source": {
+          "is_vm": 1,
+          "tcp_info": {
+            "tcp_cc_algorithm": "htcp",
+            "tcp_max_buffer_send": 67108864,
+            "tcp_max_buffer_recv": 67108864,
+            "tcp_autotune_max_buffer_recv": 33554432,
+            "tcp_max_backlog": 1000,
+            "tcp_autotune_max_buffer_send": 33554432
+          },
+          "host_memory": 16,
+          "sys_vendor": "Red Hat",
+          "services": {
+            "esmond": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [
+                "https://perfsonar01-iep-grid.saske.sk/esmond/perfsonar/archive/",
+                "https://localhost/esmond/perfsonar/archive/"
+              ],
+              "is_running": "yes"
+            },
+            "lsregistration": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [],
+              "is_running": "yes"
+            },
+            "owamp": {
+              "addresses": [],
+              "enabled": 0,
+              "is_running": "disabled",
+              "version": "4.2.0-1.el7",
+              "daemon_port": "861",
+              "testing_ports": {
+                "test": {
+                  "min_port": "8760",
+                  "max_port": "9960"
+                }
+              }
+            },
+            "pscheduler": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [
+                "https://perfsonar01-iep-grid.saske.sk/pscheduler",
+                "https://localhost/pscheduler"
+              ],
+              "is_running": "yes"
+            },
+            "psconfig": {
+              "version": "4.2.0-1.el7",
+              "enabled": 1,
+              "addresses": [],
+              "is_running": "yes"
+            },
+            "twamp": {
+              "addresses": [],
+              "enabled": 1,
+              "is_running": "yes",
+              "version": "4.2.0-1.el7",
+              "daemon_port": "862",
+              "testing_ports": {
+                "test": {
+                  "min_port": "18760",
+                  "max_port": "19960"
+                }
+              }
+            }
+          },
+          "cpu_speed": 2499.998,
+          "globally_registered": 1,
+          "cpu_cores": 4,
+          "toolkit_name": "HOST",
+          "timestamp": 1566341714329,
+          "config": {
+            "site_name": "Institute of Experimental Physics, Slovak Academy of Sciences",
+            "role": "site-border",
+            "access_policy": "public"
+          },
+          "product_name": "KVM",
+          "templates": [
+            "http://psconfig.opensciencegrid.org/pub/auto/perfsonar01-iep-grid.saske.sk"
+          ],
+          "administrator": {
+            "email": "gridsupport@saske.sk",
+            "name": "Miloslav Straka"
+          },
+          "ntp": {
+            "dispersion": 0.000067,
+            "synchronized": 1,
+            "when": "415",
+            "polling_interval": 1024,
+            "reach": 377,
+            "offset": -0.00035,
+            "delay": 0.100863,
+            "host": "chronos.es.net",
+            "stratum": 1,
+            "type": "u",
+            "refid": ".CDMA."
+          },
+          "ls_client_uuid": "06B4EE10-3BB3-11E7-B554-EBB686D67EA7",
+          "toolkit_version": "4.2.0-1.el7",
+          "external_address": {
+            "ipv6_address": "2001:4118:900:cc00::111",
+            "iface": "ens8",
+            "dns_name": "perfsonar01-iep-grid.saske.sk",
+            "mtu": 1500,
+            "ipv4_address": "147.213.204.111",
+            "address": "147.213.204.111",
+            "speed": 1000000000,
+            "counters": {
+              "txfifo": 0,
+              "txcolls": 0,
+              "rxdrop": 4751659,
+              "txdrop": 0,
+              "txcompr": 0,
+              "txbyt": 18960596308051,
+              "rxfifo": 0,
+              "rxframe": 1568,
+              "rxpcks": 10888495703,
+              "rxbyt": 10523648419044,
+              "ttbyt": 29484244727095,
+              "txerrs": 0,
+              "txcarr": 0,
+              "rxerrs": 1568,
+              "ttpcks": 25123405175,
+              "rxcompr": 0,
+              "rxmulti": 51309771,
+              "txpcks": 14234909472
+            }
+          },
+          "communities": [
+            "ALICE",
+            "ATLAS",
+            "WLCG"
+          ],
+          "cpus": 4,
+          "distribution": "CentOS Linux 7.6.1810 (Core) ",
+          "host": "perfsonar01-iep-grid.saske.sk",
+          "geolocation": "48.73,21.24"
+        },
+        "fields": {
+          "timestamp": [
+            "2019-08-20T22:55:14.329Z"
+          ]
+        },
+        "sort": [
+          1566341714329
+        ],
+        "$$_flattened": {
+          "is_vm": 1,
+          "tcp_info.tcp_cc_algorithm": "htcp",
+          "tcp_info.tcp_max_buffer_send": 67108864,
+          "tcp_info.tcp_max_buffer_recv": 67108864,
+          "tcp_info.tcp_autotune_max_buffer_recv": 33554432,
+          "tcp_info.tcp_max_backlog": 1000,
+          "tcp_info.tcp_autotune_max_buffer_send": 33554432,
+          "host_memory": 16,
+          "sys_vendor": "Red Hat",
+          "services.esmond.version": "4.2.0-1.el7",
+          "services.esmond.enabled": 1,
+          "services.esmond.addresses": [
+            "https://perfsonar01-iep-grid.saske.sk/esmond/perfsonar/archive/",
+            "https://localhost/esmond/perfsonar/archive/"
+          ],
+          "services.esmond.is_running": "yes",
+          "services.lsregistration.version": "4.2.0-1.el7",
+          "services.lsregistration.enabled": 1,
+          "services.lsregistration.addresses": [],
+          "services.lsregistration.is_running": "yes",
+          "services.owamp.addresses": [],
+          "services.owamp.enabled": 0,
+          "services.owamp.is_running": "disabled",
+          "services.owamp.version": "4.2.0-1.el7",
+          "services.owamp.daemon_port": "861",
+          "services.owamp.testing_ports.test.min_port": "8760",
+          "services.owamp.testing_ports.test.max_port": "9960",
+          "services.pscheduler.version": "4.2.0-1.el7",
+          "services.pscheduler.enabled": 1,
+          "services.pscheduler.addresses": [
+            "https://perfsonar01-iep-grid.saske.sk/pscheduler",
+            "https://localhost/pscheduler"
+          ],
+          "services.pscheduler.is_running": "yes",
+          "services.psconfig.version": "4.2.0-1.el7",
+          "services.psconfig.enabled": 1,
+          "services.psconfig.addresses": [],
+          "services.psconfig.is_running": "yes",
+          "services.twamp.addresses": [],
+          "services.twamp.enabled": 1,
+          "services.twamp.is_running": "yes",
+          "services.twamp.version": "4.2.0-1.el7",
+          "services.twamp.daemon_port": "862",
+          "services.twamp.testing_ports.test.min_port": "18760",
+          "services.twamp.testing_ports.test.max_port": "19960",
+          "cpu_speed": 2499.998,
+          "globally_registered": 1,
+          "cpu_cores": 4,
+          "toolkit_name": "HOST",
+          "timestamp": "2019-08-20T22:55:14.329Z",
+          "config.site_name": "Institute of Experimental Physics, Slovak Academy of Sciences",
+          "config.role": "site-border",
+          "config.access_policy": "public",
+          "product_name": "KVM",
+          "templates": [
+            "http://psconfig.opensciencegrid.org/pub/auto/perfsonar01-iep-grid.saske.sk"
+          ],
+          "administrator.email": "gridsupport@saske.sk",
+          "administrator.name": "Miloslav Straka",
+          "ntp.dispersion": 0.000067,
+          "ntp.synchronized": 1,
+          "ntp.when": "415",
+          "ntp.polling_interval": 1024,
+          "ntp.reach": 377,
+          "ntp.offset": -0.00035,
+          "ntp.delay": 0.100863,
+          "ntp.host": "chronos.es.net",
+          "ntp.stratum": 1,
+          "ntp.type": "u",
+          "ntp.refid": ".CDMA.",
+          "ls_client_uuid": "06B4EE10-3BB3-11E7-B554-EBB686D67EA7",
+          "toolkit_version": "4.2.0-1.el7",
+          "external_address.ipv6_address": "2001:4118:900:cc00::111",
+          "external_address.iface": "ens8",
+          "external_address.dns_name": "perfsonar01-iep-grid.saske.sk",
+          "external_address.mtu": 1500,
+          "external_address.ipv4_address": "147.213.204.111",
+          "external_address.address": "147.213.204.111",
+          "external_address.speed": 1000000000,
+          "external_address.counters.txfifo": 0,
+          "external_address.counters.txcolls": 0,
+          "external_address.counters.rxdrop": 4751659,
+          "external_address.counters.txdrop": 0,
+          "external_address.counters.txcompr": 0,
+          "external_address.counters.txbyt": 18960596308051,
+          "external_address.counters.rxfifo": 0,
+          "external_address.counters.rxframe": 1568,
+          "external_address.counters.rxpcks": 10888495703,
+          "external_address.counters.rxbyt": 10523648419044,
+          "external_address.counters.ttbyt": 29484244727095,
+          "external_address.counters.txerrs": 0,
+          "external_address.counters.txcarr": 0,
+          "external_address.counters.rxerrs": 1568,
+          "external_address.counters.ttpcks": 25123405175,
+          "external_address.counters.rxcompr": 0,
+          "external_address.counters.rxmulti": 51309771,
+          "external_address.counters.txpcks": 14234909472,
+          "communities": [
+            "ALICE",
+            "ATLAS",
+            "WLCG"
+          ],
+          "cpus": 4,
+          "distribution": "CentOS Linux 7.6.1810 (Core) ",
+          "host": "perfsonar01-iep-grid.saske.sk",
+          "geolocation": "48.73,21.24",
+          "_id": "ZQE9sWwBMWltPFRM-faz",
+          "_type": "doc",
+          "_index": "ps_meta-2019.8"
+        }
+      }
+    ]
+  },
+  "aggregations": {
+    "2": {
+      "buckets": [
+        {
+          "key_as_string": "20190820T155500-0700",
+          "key": 1566341700000,
+          "doc_count": 1
+        },
+        {
+          "key_as_string": "20190820T160000-0700",
+          "key": 1566342000000,
+          "doc_count": 1
+        },
+        {
+          "key_as_string": "20190820T161000-0700",
+          "key": 1566342600000,
+          "doc_count": 1
+        }
+      ]
+    }
+  },
+  "status": 200
+}

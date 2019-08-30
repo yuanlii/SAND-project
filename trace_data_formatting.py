@@ -1,3 +1,8 @@
+# About this file:
+# this file is used to process source trace data
+# * input: query results copied from Kibana dev tool 
+# * output: /data/trace_data_all.json
+
 from datetime import datetime, timedelta
 import psycopg2
 from psycopg2 import IntegrityError
@@ -7,12 +12,12 @@ import os.path
 import json
 
 
-params = config()
-conn = psycopg2.connect(**params)
-cur = conn.cursor()
-my_query = {}
-#successfully connected to local postgres db
-print ('Database connection established at ' + str(datetime.now()))
+# params = config()
+# conn = psycopg2.connect(**params)
+# cur = conn.cursor()
+# my_query = {}
+# #successfully connected to local postgres db
+# print ('Database connection established at ' + str(datetime.now()))
 
 
 class formatTrace:
@@ -76,18 +81,6 @@ class formatTrace:
             links.append(link)
             cur = hops[i+1]
         return links
-
-
-    # def get_sample_data(self,i):
-    #     # for i in range(len(trace['hits']['hits'])):
-    #     d = {}
-    #     nodes = self.format_trace_data(i)
-    #     links = self.format_trace_links(i)
-    #     d['nodes'] = nodes
-    #     d['links'] = links
-
-    #     self.write_data('./data/trace_data_'+ str(i) +'.json',d)
-
     
     def get_sample_trace_data(self):
         '''used to combine all trace records to single one json file'''

@@ -1,20 +1,9 @@
-from datetime import datetime, timedelta
-import psycopg2
-from psycopg2 import IntegrityError
-from config import config
-import os
-import os.path
+# About this file:
+# this file is used to process source packet loss data; and format it in certain JSON that is able to feed in d3 visualization
+
 import json
 
-params = config()
-conn = psycopg2.connect(**params)
-cur = conn.cursor()
-my_query = {}
-#successfully connected to local postgres db
-print ('Database connection established at ' + str(datetime.now()))
-
-
-class formatPl:
+class FormatPacketLoss:
     def __init__(self):
         pass
 
@@ -76,20 +65,56 @@ class formatPl:
         return link
 
 
+    def get_format_data(self, ouput_path):
+        ''' format into nodes and links for d3 visualization'''
+        pl = self.get_data()
+        dct = {}
+        links, nodes = [], []
 
-fp = formatPl()
-pl = fp.get_data()
-dct = {}
-links = []; nodes = []
-for i in range(len(pl)):
-    l = fp.get_pl_link(i)
-    n = fp.format_pl_node(i)
-    links.append(l)
-    nodes += n
+        for i in range(len(pl)):
+            l = self.get_pl_link(i)
+            n = self.format_pl_node(i)
+            links.append(l)
+            nodes += n
 
-dct['nodes'] = nodes
-dct['links'] = links
+        dct['nodes'] = nodes
+        dct['links'] = links
 
-fp.write_data('./data/pl.json',dct)
+        self.write_data(ouput_path,dct)
+        return dct
+        
+
+    def map_host_ip(self):
+        ''' get mapping for host names and IP'''
+        host_mapping = {}
+
+        pl = self.load_data("./data/sample_packet_loss.json")
+        size = len(pl['hits']['hits'])
+        print('There are %d records of packet loss in total.' % size)
+        for i in range(size):
+
+            src = pl['hits']['hits'][i]['_source']['src']
+            src_host = pl['hits']['hits'][i]['_source']['src_host']
+
+            dest = pl['hits']['hits'][i]['_source']['dest']
+            dest_host = pl['hits']['hits'][i]['_source']['dest_host']
+            
+            host_mapping[src_host] = src
+            host_mapping[dest_host] = dest
+
+        return host_mapping
+    
+
+
+if __name__ == '__main__':
+    format_packet_loss = FormatPacketLoss()
+    # format_packet_loss.get_format_data('./data/pl.json')
+
+    host_mapping = format_packet_loss.map_host_ip()
+    print(host_mapping)
+    
+    
+
+
 
 

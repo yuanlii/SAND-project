@@ -36,7 +36,7 @@ console.log('svg:', svg);
       .force("charge", d3.forceManyBody())
       .force("center", d3.forceCenter(width / 2, height / 2));
 
-  d3.json("pl_trace.json", function(error, graph) {
+  d3.json("trace_data_all_copy.json", function(error, graph) {
     if (error) throw error;
     
     graph.links = graph.links.map(function(ele) {

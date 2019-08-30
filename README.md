@@ -25,6 +25,8 @@ UM Elk:
 From UM campus networks you should be able to access our ELK instance at AGLT2:  http://atgrid.grid.umich.edu/app/kibana
 - the credentials to login to the UM Elk is 'admin/QuarkNuggets8'
 
+[ATLAS repo](https://github.com/ATLAS-Analytics)
+
 
 ### google doc data viz idea
 [Link](https://docs.google.com/document/d/1C6TU4CeRWACnS4nvKuWLn8oeIWjXKiuA0uhTnbJ_PKM/edit)
