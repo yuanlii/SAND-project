@@ -15,6 +15,8 @@ Documentation about Kibana dashboards that I built - [Google doc](https://docs.g
 - Kibana dev dashboard: http://atlas-kibana-dev.mwt2.org --> cannot open outside of UM network
   - username: atlas
   - password: BlackMirror
+  
+ *updated 08/2019: [development page](https://atlas-kibana.mwt2.org:5601/) --> personal user name: yuanlii; pw
 
 [Description of project](https://mail.google.com/mail/u/0/#section_query/has%3Ayellow-star/FMfcgxwBVMlsdZrRPcdqJvFPCtddJzDs)
 
