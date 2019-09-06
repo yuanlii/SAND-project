@@ -5,3 +5,5 @@ venv.bak/
 
 **/secrets.py
 .DS_Store
+
+**/README.md
