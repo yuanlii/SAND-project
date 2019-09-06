@@ -1,6 +1,6 @@
 
 ## SAND Project Documentation
-- [Google shared Drive](https://drive.google.com/drive/folders/0APwP9-3JRjJOUk9PVA)
+[Google shared Drive](https://drive.google.com/drive/folders/0APwP9-3JRjJOUk9PVA)
 
 ### Building dashboards in Kibana
 - [development page](https://atlas-kibana.mwt2.org:5601/)
