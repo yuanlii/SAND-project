@@ -15,3 +15,5 @@ language network:
 
 visualization reference:
 - https://carto.com/blog/categories/cartography-&-visualization/
+
+- [d3 plot on map](http://bl.ocks.org/phil-pedruco/7745589)

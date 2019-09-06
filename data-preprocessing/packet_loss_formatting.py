@@ -1,7 +1,9 @@
-# About this file:
-# this file is used to process source packet loss data; and format it in certain JSON that is able to feed in d3 visualization
-
 import json
+
+'''
+process source packet loss data in JSON for d3 visualization
+'''
+
 
 class FormatPacketLoss:
     def __init__(self):
