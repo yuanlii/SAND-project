@@ -2,3 +2,6 @@
 venv/
 venv.bak/
 */venv/*
+
+**/secrets.py
+.DS_Store
