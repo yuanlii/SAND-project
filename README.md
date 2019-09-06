@@ -10,10 +10,13 @@ UM [ELK instance at AGLT2](http://atgrid.grid.umich.edu/app/kibana)
 need to access via UM campus networks
 
 Information about Tier-2 center - [link](http://www.aglt2.org/)
+
 Information on Open Science Grid (OSG) - [link](https://opensciencegrid.org/)
+
 WLCG - [link](http://wlcg.web.cern.ch/)
+
 Kibana interface to main ATLAS analytics platform - [link](https://atlas-kibana.mwt2.org:5601/)
-maintained by the University of Chicago
+- maintained by the University of Chicago
 
 main OSG/WLCG MaDDash site - [link](https://psmad.opensciencegrid.org/maddash-webui/)
 provides a high-level view of the various perfSONAR network measurement results
