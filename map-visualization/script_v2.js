@@ -3,9 +3,7 @@ projection = undefined;
 
 scale = 1;
 width = 960;
-// width = 1296;
 height = 500;
-// height = 790;
 
 path = undefined;
 
@@ -19,8 +17,6 @@ window.onload = function() {
 
     // Map and projection
     projection = d3.geoMercator()
-        // .scale(150 * scale)
-    // .scale(85)
     // .scale(120)
     // .translate([width/2, height/2*1.3]);
     // .translate([width/2, height/2 * 1.3 * scale]);
@@ -56,6 +52,9 @@ function ready(error, dataGeo, link_data, host_data) {
       link.push(topush)
     })
 
+    // TODO
+    initializeNodeInfo()
+
     // Draw the map
     var svg = SVG;
     svg.append("g")
@@ -68,34 +67,6 @@ function ready(error, dataGeo, link_data, host_data) {
         )
         .style("stroke", "#fff")
         .style("stroke-width", 0);
-
-    
-    // // TODO: try drawing circles
-    // svg.selectAll("circle")
-    //     // .data(host_data)
-    //     .data([aa,bb])
-    //     .enter().append("circle")
-    //     .attr('r',5)
-    //     // .attr('cx', function (d) { return d.lng; })
-    //     .attr("cx", function (d) { console.log(projection(d)); return projection(d)[0]; })
-    //     // .attr('cy', function (d) { return d.lat; })
-    //     .attr('cy', function (d) { return projection(d)[1]; })
-
-    //     // .attr('cx',function (d) { return transformGeoCoordToPixels(width, 180.0, d.lng); })
-    //     // .attr('cy',function (d) { return transformGeoCoordToPixels(width, 180.0, d.lat); })
-        
-        
-    //     .on("mouseover",function(d) {
-    //         console.log("just had a mouseover", d3.select(d));
-    //         d3.select(this)
-    //             .classed("active",true)
-    //         })
-
-    //     .on("mouseout",function(d){
-    //         d3.select(this)
-    //             .classed("active",false)
-    //     })
-    
 
 
     // draw the hosts as circles on map
@@ -120,11 +91,18 @@ function ready(error, dataGeo, link_data, host_data) {
             })
         
         .on("mouseover",function(d) {
-            console.log("just had a mouseover", d3.select(d));
+            // console.log("just had a mouseover", d3.select(d));
             d3.select(this)
                 .classed("active",true)
             })
+        
+        // TODO: do something: when click on node
 
+        // .on("click", function(d) {
+        //     console.log("clicked on node", d3.select(d));
+        //     d3.select(this)
+        // })
+        .on("click", display) //TODO: display
         .on("mouseout",function(d){
             d3.select(this)
                 .classed("active",false)
@@ -142,7 +120,7 @@ function ready(error, dataGeo, link_data, host_data) {
         .style("stroke-width", 2)
 
         .on("mouseover",function(d) {
-            console.log("just had a mouseover on path", d3.select(d));
+            // console.log("just had a mouseover on path", d3.select(d));
             d3.select(this)
                 //.classed("active",true)
                 .classed("highlight",true)
@@ -152,6 +130,138 @@ function ready(error, dataGeo, link_data, host_data) {
             d3.select(this)
                 //.classed("active",false)
                 .classed("highlight",false)
+    
+
         })
 
 }
+
+
+
+
+// TODO: display details of selected host
+function display(d) {
+    // updateNodeInfo(d.properties.name, color(i));
+    console.log(d.properties.name)
+    updateNodeInfo2(d);  
+}
+
+
+
+// TODO: show detailed info of node when on click
+function initializeNodeInfo() {
+    var infoBox = d3.select('#sequence').append("svg:svg")
+        .attr("width", 300)
+        .attr("height", 300)
+        .attr("id", "infobox")
+            // .append("svg:g") 
+        //     .attr("transform", "translate(0, 0)")
+        //     .attr("id","infoBox");
+    
+        // infoBox.append("svg:text")
+        // .attr("dy", ".35em")
+        // .attr("text-anchor", "middle")
+        // .text("Place holder")
+        // .attr("class","title")
+        // ;	
+}
+
+
+// TODO:
+// function datasetBarChosen(data) {  // only choose data that is selected
+//     var ds = [];
+//     // d.properties.name
+// 	for (x in datasetBarChart) {  
+// 		 if(datasetBarChart[x].group==group){
+// 		 	ds.push(datasetBarChart[x]);
+// 		 } 
+// 		}
+// 	return ds;
+// }
+
+
+// trial: update node info 
+function updateNodeInfo2(d){
+    console.log('update --- ', d);
+
+    var plot = d3.select("#infobox")
+        .selectAll("g")
+        .data([d], function(d) {
+            console.log('data', d)
+            return d.properties.name; 
+        })
+            // .select(".title")
+            //     .text(function(d){
+            //         console.log('update text', d.properties.name);
+            //         return d.properties.name;
+            //     })
+                
+    // update case
+    // plot. -> ...
+
+    // new case
+    var entering = plot.enter()
+        .append("svg:g")
+            .append("svg:text")
+                // .attr("dy", ".35em")
+                .attr("x", 100)
+                .attr("y", 100)
+                .attr("text-anchor", "middle")
+                .text(function(d){
+                    console.log('enter text', d.properties.name);
+                    return d.properties.name;
+                })
+                .attr("class","title");
+    
+    
+    // entering.append("svg:svg")
+    //         .attr("points") 
+
+    // remove case
+    plot.exit()
+        .remove();
+    
+    // d3.select("#infoBox")
+    // .style("visibility", "");
+
+
+
+}
+
+
+
+// TODO:
+// function updateNodeInfo(group, colorChosen) { 
+function updateNodeInfo(d) { 
+    // var currentDatasetBarChart = datasetBarChosen(group);
+
+    // var plot = d3.select("#infoBox")
+        //    .datum(currentDatasetBarChart); 
+
+    var g = d3.select("#infoBox")
+    .selectAll("g")
+    // .data(nodeArray, function(d) { return d.host; }); 
+    // .data(currentDatasetBarChart, function(d) { return d.properties.name; }); 
+    .data(d, function(d) { return d.properties.name; }); 
+
+    // Add breadcrumb and label for entering nodes.
+    var entering = g.enter().append("svg:g");
+  
+    entering.append("svg:svg")
+        // .attr("points", breadcrumbPoints)
+        .attr("points") 
+        // .style("fill", function(d) { return colors[d.host]; });
+
+    // Make the breadcrumb trail visible, if it's hidden.
+    d3.select("#infoBox")
+    .style("visibility", "");
+
+}
+
+
+
+
+
+
+
+

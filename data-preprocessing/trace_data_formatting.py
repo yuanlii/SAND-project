@@ -1,12 +1,12 @@
 # About this file:
 # this file is used to process source trace data
 # * input: query results copied from Kibana dev tool 
-# * output: /data/trace_data_all.json
+# * output: /data/trace_data_all.json --> formated as `nodes`, `links`
 
 from datetime import datetime, timedelta
 import psycopg2
 from psycopg2 import IntegrityError
-from config import config
+# from config import config
 import os
 import os.path
 import json
@@ -82,6 +82,7 @@ class formatTrace:
             cur = hops[i+1]
         return links
     
+
     def get_sample_trace_data(self):
         '''used to combine all trace records to single one json file'''
         d ,nodes, links = {}, [], []
@@ -97,7 +98,12 @@ class formatTrace:
 
         self.write_data('./data/trace_data_all.json',d)
         return d
+    
+    
 
-fd = formatTrace()
-fd.get_sample_trace_data()
+
+if __name__ == '__main__':
+    fd = formatTrace()
+    fd.get_sample_trace_data()
+
 
