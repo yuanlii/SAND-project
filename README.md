@@ -57,6 +57,7 @@ Documentation of Kibana dashboard built by Yuan (01/2019-04/2019) - [link](https
 ## Useful Resources
 - check out Sushant's github repo for accessing data via CERN - [link](https://github.com/sand-ci/Analytics)
 - visualization TODO list by MEPhil - [link](https://docs.google.com/document/d/1XoWxojl63is5UrTDCNEND2KK9vGfnFl83cOLak6CUkk/edit)
+- [SAND-CI visualization repo](https://github.com/sand-ci/PSTraceGraph3D)
 
 ## TODO
 - https://github.com/yuanlii/SAND-project/issues/13
