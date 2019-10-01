@@ -62,6 +62,6 @@ Documentation of Kibana dashboard built by Yuan (01/2019-04/2019) - [link](https
 ## TODO
 - https://github.com/yuanlii/SAND-project/issues/13
 - front-end functionality
-  - time selector
+  - time selector - [TOOD](https://github.com/yuanlii/SAND-project/issues/15#issuecomment-536878052)
   - emphasizing => select each single host, then the other hosts will dim out.
 - populate real data
