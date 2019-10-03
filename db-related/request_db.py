@@ -13,8 +13,8 @@ import secrets
 
 
 HEADERS = {
-    # 'Content-Type': 'application/json'
-    'Content-Type': 'text/html'
+    'Content-Type': 'application/json'
+    # 'Content-Type': 'text/html'
 }
 
 uri = "https://atlas-kibana.mwt2.org:5601/ps_packet_loss"+"/_search"

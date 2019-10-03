@@ -1,24 +1,11 @@
 from helper import *
 import datetime
-
-class Trace():
-    def __init__(self, trace_info):
-        self.src = trace_info['src']
-        self.dest = trace_info['dest']
-        self.hops = trace_info['hops']
-        self.timestamp = convertToDatetime(trace_info['timestamp'])
-
-    
-    def __str__(self):
-        return '{}: {} -> {}: '.format(self.timestamp, self.src, self.dest)
-    
-    def printHops(self):
-        return '{} - {} with hops in between: {}'.format(self.src, self.dest, self.hops)
-
+import pandas as pd
+from ClassTrace import *
 
 
 def loadTraceData(trace_data_path = "../data/sample_trace.json"):
-
+    ''' create trace instances and convert millseconds to datetime object'''
     data = load_data(trace_data_path)
     traces = []
     for result in data['hits']['hits']:
@@ -34,6 +21,21 @@ def convertToDatetime(ms):
     return datetime.datetime.fromtimestamp(ms/1000.0)
 
 
+def formatToDf(traces):
+    trace_dic = {}
+    srcs = [trace.src for trace in traces]
+    dests = [trace.dest for trace in traces]
+    timestamps = [trace.timestamp for trace in traces]
+    
+    # for field in ['timestamp','src','dest']:
+    trace_dic['timestamp'] = timestamps
+    trace_dic['src'] = srcs
+    trace_dic['dest'] = dests
+
+    trace_df = pd.DataFrame(trace_dic)
+    trace_df.to_csv('../data/trace_data_09232019.csv', index=False)
+    print('successfully output')
+
 
 # note:
 # timedelta can directly return the previous n days' data
@@ -42,6 +44,8 @@ def convertToDatetime(ms):
 
 if __name__ == '__main__':
     traces = loadTraceData()
-    # print(convertTime(traces))
     for trace in traces:
         print(trace)
+
+    # output formatted data to file
+    formatToDf(traces)

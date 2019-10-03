@@ -36,7 +36,6 @@ stroke-opacity: 0.8 !important;
 }
 
 
-
 /* from bootstrap side bar */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
@@ -201,10 +200,19 @@ a.article:hover {
 
 
 /* from simple dashboard */
-#sequence {    
-	/* position:absolute;
+/* #sequence {    
+	position:absolute;
 	top:100px;
 	left:10px;
 	width:400px;
-	height: 400px;  */
+	height: 400px; 
+} */
+
+
+/* time selector */
+rect.mover {
+    stroke: red;
+    stroke-opacity: .1;
+    fill: lightSteelBlue;
+    fill-opacity: .5;
 }
