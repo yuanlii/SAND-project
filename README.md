@@ -5,6 +5,7 @@ Relevant URLs:
 - [OSG/WLCG Networking documentation](https://logz.io/learn/complete-guide-elk-stack/)
 - [ELK Stack overview](https://logz.io/learn/complete-guide-elk-stack/)
 - [Neo4J graph database](https://neo4j.com/)
+- [Service Analysis and Network Diagnosis](https://github.com/sand-ci)
 
 UM [ELK instance at AGLT2](http://atgrid.grid.umich.edu/app/kibana) 
 need to access via UM campus networks
