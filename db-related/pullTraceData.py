@@ -311,7 +311,7 @@ def createGeoMapping(file_path):
 
 
 # TODO: query ElasticSearch to get ps_meta, then to get host and its coordinate info.
-
+# error: json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4135 column 32 (char 133191)
 
 
 if __name__ == '__main__':
