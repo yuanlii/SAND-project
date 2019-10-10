@@ -1,14 +1,14 @@
 #!/usr/bin/python
 import elasticsearch
 from elasticsearch import helpers
-from elasticsearch.serializer import JSONSerializer
-from elasticsearch.serializer import TextSerializer
+# from elasticsearch.serializer import JSONSerializer
+# from elasticsearch.serializer import TextSerializer
 
 from datetime import datetime, timedelta
 import time
 import numpy as np
 import pandas as pd
-from config import config
+# from config import config
 import os
 import os.path
 from pathlib import Path
@@ -219,7 +219,7 @@ def formatLngLat(traces):
     '''
     format as csv file: `lng1,lng2,lat1,lat2`
     '''
-    geolocation = loadGeolication()
+    geolocation = loadGeolocation()
     
     lng1 = [loadLatLng(geolocation, trace.src)[1] for trace in traces]
     lng2 = [loadLatLng(geolocation, trace.dest)[1] for trace in traces]
