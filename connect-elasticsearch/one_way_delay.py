@@ -38,6 +38,7 @@ def cacheDict(filePath, dictionary):
     path = Path(filePath)
     path.write_text( json.dumps(dictionary) )
 
+
 def parseFieldData(objects, field_name):
     ''' utility function to convert class object to an entire dictionary'''
     # use `vars` to convert class to dictionary
@@ -66,7 +67,7 @@ def getOwdData(from_date, to_date):
     es = connectDB()
 
     query = {
-        "size":1000,
+        "size":1000, # TODO: 0
         "query":{
             "bool":{
                 "must":[
@@ -99,6 +100,7 @@ def getOwdData(from_date, to_date):
     }   
 
     data = es.search('ps_owd', body=query)
+    # TODO: es.scan
 
     # cache requested data
     timestr = time.strftime("%Y%m%d-%H%M%S")
@@ -175,8 +177,8 @@ def plotHeatmap():
 
 
 # TODO: plot sankey map
-
 # TODO: more to get correlation of delay_mean, delay_median, delay_sd (scatter plot?)
+
 
 
 if __name__ == '__main__':
