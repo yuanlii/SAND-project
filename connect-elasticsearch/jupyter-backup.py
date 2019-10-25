@@ -7,6 +7,23 @@ from elasticsearch import helpers
 user = 'yuanlii'
 password = 'LAURALI203'
 
+class Owd():
+    def __init__(self, info):
+        self.src_host = info['src_host']
+        self.dest_host = info['dest_host']
+        self.timestamp = info['timestamp']
+        self.delay_mean = info['delay_mean']
+        self.delay_sd = info['delay_sd']
+        self.delay_median = info['delay_median']
+    
+
+    def __str__(self):
+        return "{} -> {} || delay mean: {}".format(self.src_host, self.dest_host, self.delay_mean)
+    
+    def printOwd(self):
+        print("Print delay statistics.")
+        return "delay mean: {} | delay sd: {} | delay median: {}".format(self.delay_mean, self.delay_sd, self.delay_median)
+
 def connectDB():
     '''connect to ElasticSearch db'''
     try:
@@ -99,7 +116,51 @@ for r in results:
     break
 
 
-# TODO: cache generator
+# TODO: take too long to finish running
+
+def getAvgDelayMean(results):
+    ''' Get average delay mean for each source-destination pair.'''
+    src_hosts = []
+    dest_hosts = []
+    delay_means = []
+
+    for r in results:
+        src_hosts.append(r['_source']['src_host'])
+        dest_hosts.append(r['_source']['dest_host'])
+        delay_means.append(r['_source']['delay_mean'])
+
+    return pd.DataFrame({'source': src_hosts, 'destination': dest_hosts, 'avg_delay_mean': delay_means})    
+
+getAvgDelayMean(results).head()
+
+
+def serialize(dct, info):
+#     k = (src,dest)
+#     dct = {(src1,dest1):20, (src1,dest2):10 ...}
+    k = (info['_source']['src_host'], info['_source']['dest_host'])
+    dct[k] = info['_source']['src_host']['delay_mean']
+    return dct[k]
+
+dct = {}
+for info in results:
+    serialize(dct, info)
+
+
+# TODO: serialize generator => need to convert to dictionary first
+# alternative: serialize a class => still need to convert to dictionary
+
+# TODO: multiprocessing
+n_threads = 7
+pool = mp.Pool(n_threads)
+
+dct = {}
+# pool.map(func, range(10))
+pool.map(serialize(dct,info), results['_source'])
+
+owd_dict = {i: info['_source'] for i,info in enumerate(results)}
+
+
+# TODO: serialize generator
 # timestr = time.strftime("%Y%m%d-%H%M%S")
 # cacheDict('./output/cached_owd_data'+ timestr +'.json', results)
 
@@ -111,3 +172,5 @@ for dct in results:
 
 
 # TODO: visualize data
+
+
